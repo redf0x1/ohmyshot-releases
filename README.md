@@ -2,7 +2,9 @@
 
 Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
-![OhMyShot Preview](./assets/preview.png)
+<p align="center">
+  <img src="https://ohmyshot.auto-bot.io/assets/images/screenshots/optimized/ohmyshot-800w.webp" alt="OhMyShot Preview" width="700">
+</p>
 
 ## Features
 
@@ -15,16 +17,19 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release
+### Latest Release: v1.0.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [OhMyShot_x.x.x_aarch64.dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
-| macOS (Intel) | [OhMyShot_x.x.x_x64.dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
-| Windows | [OhMyShot_x.x.x_x64-setup.exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
-| Linux (Debian/Ubuntu) | [ohmyshot_x.x.x_amd64.deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
-| Linux (Fedora/RHEL) | [ohmyshot-x.x.x-1.x86_64.rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
-| Linux (AppImage) | [ohmyshot_x.x.x_amd64.AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.0.0/OhMyShot_1.0.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.0.0/OhMyShot_1.0.0_x64.dmg) |
+| Windows | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.0.0/OhMyShot_1.0.0_x64-setup.exe) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.0.0/OhMyShot_1.0.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.0.0/OhMyShot-1.0.0-1.x86_64.rpm) |
+
+> ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
+
+[View all releases →](https://github.com/redf0x1/ohmyshot-releases/releases)
 
 ### Installation
 
@@ -41,14 +46,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i ohmyshot_x.x.x_amd64.deb
+sudo dpkg -i OhMyShot_1.0.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i ohmyshot-x.x.x-1.x86_64.rpm
-
-# AppImage
-chmod +x ohmyshot_x.x.x_amd64.AppImage
-./ohmyshot_x.x.x_amd64.AppImage
+sudo rpm -i OhMyShot-1.0.0-1.x86_64.rpm
 ```
 
 ## Privacy
