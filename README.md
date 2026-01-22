@@ -16,18 +16,22 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - ⚡ Fast and lightweight
 - 🔍 **NEW** Blur/Pixelate tool for sensitive info
 - ↔️ **NEW** Enhanced arrows with multiple head styles
+- 📝 **NEW** OCR text extraction (Live Text style)
+- 📷 **NEW** QR code detection
+- ⌨️ **NEW** Keyboard shortcuts modal (press ?)
+- 📌 **NEW** Always on Top option
 
 ## Download
 
-### Latest Release: v1.1.0
+### Latest Release: v1.2.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.1.0/OhMyShot_1.1.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.1.0/OhMyShot_1.1.0_x64.dmg) |
-| Windows | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.1.0/OhMyShot_1.1.0_x64-setup.exe) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.1.0/OhMyShot_1.1.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.1.0/OhMyShot-1.1.0-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_x64.dmg) |
+| Windows | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_x64-setup.exe) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot-1.2.0-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -48,10 +52,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.1.0_amd64.deb
+sudo dpkg -i OhMyShot_1.2.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.1.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.2.0-1.x86_64.rpm
 ```
 
 ## Privacy

@@ -2,6 +2,29 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.2.0] - 2026-01-22
+
+### Added
+- **OCR Text Extraction**: Extract text from screenshots using Tesseract.js
+  - Press `Shift+T` to enter text selection mode
+  - Word-level selection with blue highlight overlay
+- **QR Code Detection**: Scan and decode QR codes from screenshots automatically
+- **Keyboard Shortcuts Modal**: Press `?` to view all available shortcuts
+- **Always on Top**: Keep window floating above others (Settings → General)
+- **Background Corner Radius**: Adjust corner radius outside the screenshot (0-100)
+- **Capture Sound Feedback**: Audio feedback when taking screenshots
+- **Smooth Capture UX**: Coordinated transitions and visual feedback during screen capture
+
+### Fixed
+- Tool shortcuts (1-9, P, H, E, etc.) now properly switch between tools
+- Fixed annotation color not applying correctly in some cases
+
+### Changed
+- Enhanced keyboard shortcuts with Space-to-Select (hold Space to temporarily switch to Select tool)
+- Improved performance with lazy-loaded OCR worker
+
+---
+
 ## [1.1.0] - 2026-01-22
 
 ### Added
