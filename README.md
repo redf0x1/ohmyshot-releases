@@ -3,7 +3,7 @@
 Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 <p align="center">
-  <img src="https://ohmyshot.auto-bot.io/assets/images/screenshots/optimized/ohmyshot-800w.webp" alt="OhMyShot Preview" width="700">
+  <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-800w.webp" alt="OhMyShot Preview" width="700">
 </p>
 
 ## Features
@@ -14,24 +14,26 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 📐 Multiple aspect ratios and sizes
 - 🔒 100% offline - no data collection
 - ⚡ Fast and lightweight
-- 🔍 **NEW** Blur/Pixelate tool for sensitive info
-- ↔️ **NEW** Enhanced arrows with multiple head styles
-- 📝 **NEW** OCR text extraction (Live Text style)
-- 📷 **NEW** QR code detection
-- ⌨️ **NEW** Keyboard shortcuts modal (press ?)
-- 📌 **NEW** Always on Top option
+- 🔍 Blur/Pixelate tool for sensitive info
+- ↔️ Enhanced arrows with multiple head styles
+- 📝 OCR text extraction (Live Text style)
+- 📷 QR code detection
+- ⌨️ Keyboard shortcuts modal (press ?)
+- 📌 Always on Top option
+- 🎨 **NEW** Enhanced Gradient System with categories & search
+- 🖼️ **NEW** Enhanced Wallpaper System with favorites & recents
 
 ## Download
 
-### Latest Release: v1.2.0
+### Latest Release: v1.3.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_x64.dmg) |
-| Windows | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_x64-setup.exe) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot_1.2.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.2.0/OhMyShot-1.2.0-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_x64.dmg) |
+| Windows | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_x64-setup.exe) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot-1.3.0-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -52,10 +54,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.2.0_amd64.deb
+sudo dpkg -i OhMyShot_1.3.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.2.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.3.0-1.x86_64.rpm
 ```
 
 ## Privacy
@@ -66,7 +68,7 @@ OhMyShot is 100% offline. We collect **no data**:
 - No cloud storage
 - No account required
 
-See our [Privacy Policy](https://ohmyshot.auto-bot.io/privacy.html) for details.
+See our [Privacy Policy](https://ohmyshot.app/privacy.html) for details.
 
 ## Support
 
@@ -84,4 +86,4 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ---
 
-**Website**: [ohmyshot.auto-bot.io](https://ohmyshot.auto-bot.io)
+**Website**: [ohmyshot.app](https://ohmyshot.app)
