@@ -2,6 +2,21 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.3.0] - 2026-01-23
+
+### Added
+- **Enhanced Gradient System**: New tabbed interface with categories and search functionality
+- **Enhanced Wallpaper System**: Favorites, recents, and search for quick wallpaper access
+
+### Changed
+- Updated domain and social links across the application
+
+### Fixed
+- OCR text extraction improvements based on customer feedback
+- Various settings-related issues resolved
+
+---
+
 ## [1.2.0] - 2026-01-22
 
 ### Added
