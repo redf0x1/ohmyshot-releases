@@ -22,20 +22,33 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 📌 Always on Top option
 - 🎨 Enhanced Gradient System with categories & search
 - 🖼️ Enhanced Wallpaper System with favorites & recents
-- ⚡ **NEW** Lightning-fast text recognition
-- 🎨 **NEW** Professional toolbar with Highlighter tool (H)
+- ⚡ Lightning-fast text recognition
+- 🎨 Professional toolbar with Highlighter tool (H)
+- 🔤 **NEW** OCR Direct Capture - select screen region and extract text instantly
+- 📸 **NEW** Quick Capture Mode - capture and beautify in one smooth workflow
+- 🔔 **NEW** Native notifications for capture feedback
+- 🖥️ **NEW** Enhanced system tray with quick actions
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| ⌘⌥3 | Screenshot region capture |
+| ⌘⌥4 | OCR Direct Capture (select & extract text) |
+| ⌘⌥5 | Quick Capture Mode |
+| ? | Show all shortcuts |
 
 ## Download
 
-### Latest Release: v1.6.0
+### Latest Release: v1.7.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.6.0/OhMyShot_1.6.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.6.0/OhMyShot_1.6.0_x64.dmg) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.7.0/OhMyShot_1.7.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.7.0/OhMyShot_1.7.0_x64.dmg) |
 | Windows (v1.3.0) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_x64-setup.exe) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.6.0/OhMyShot_1.6.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.6.0/OhMyShot-1.6.0-1.x86_64.rpm) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.7.0/OhMyShot_1.7.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.7.0/OhMyShot-1.7.0-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -56,10 +69,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.6.0_amd64.deb
+sudo dpkg -i OhMyShot_1.7.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.6.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.7.0-1.x86_64.rpm
 ```
 
 ## Privacy

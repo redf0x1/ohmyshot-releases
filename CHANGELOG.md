@@ -2,6 +2,28 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.7.0] - 2026-01-24
+
+### Added
+- **OCR Direct Capture** ⚡: New `⌘⌥4` shortcut for instant text extraction
+  - Select any region on screen → Text copied to clipboard immediately
+  - Perfect for grabbing text from images, PDFs, or non-selectable content
+  - No editor needed – just capture and paste!
+- **Quick Capture Mode** 📸: Lightning-fast screenshot workflow with `⌘⌥5`
+  - Instant region capture straight to clipboard
+  - Skip the editor when you just need a quick screenshot
+  - Inspired by power-user workflows for maximum speed
+- **Native Notifications**: Beautiful macOS notifications for all capture events
+  - Click any notification to open OhMyShot instantly
+  - Know exactly when your capture is ready
+
+### Improved
+- **Enhanced System Tray Menu**: Redesigned with icons and keyboard shortcut hints
+  - Quick access to all capture modes at a glance
+  - Visual shortcuts help you learn the app faster
+
+---
+
 ## [1.6.0] - 2026-01-24
 
 ### Added
