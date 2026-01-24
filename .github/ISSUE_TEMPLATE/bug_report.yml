@@ -1,0 +1,79 @@
+name: Bug Report
+description: Report a bug or issue with OhMyShot
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill out the form below.
+        
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you using?
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows
+        - Linux (Debian/Ubuntu)
+        - Linux (Fedora/RHEL)
+        - Linux (AppImage)
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: OhMyShot Version
+      description: What version of OhMyShot are you using?
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: true
+      
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version
+      description: What version of your operating system?
+      placeholder: "e.g., macOS 14.0, Windows 11, Ubuntu 22.04"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? What did you expect to happen?
+      placeholder: |
+        What happened:
+        
+        What I expected:
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Open OhMyShot
+        2. Click on...
+        3. See error
+    validations:
+      required: true
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: Any error messages or logs? (if available)
+      render: shell
