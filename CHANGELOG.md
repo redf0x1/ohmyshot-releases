@@ -2,6 +2,48 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.8.0] - 2026-01-26
+
+### 🎨 Major UI Redesign
+
+This release brings a completely reimagined interface designed for maximum focus and efficiency.
+
+### Added
+- **Floating Editing Panels** ✨: Say goodbye to the fixed sidebar!
+  - Edit panel appears on-demand (press `E`) for background and crop settings
+  - Export panel pops up when you need it (press `X`)
+  - Panels auto-hide after 5 seconds to keep your canvas clean
+  - Smart hiding when you're drawing annotations
+
+- **Minimal Mode** 🎯: Ultimate distraction-free editing
+  - Press `M` to hide everything except your canvas
+  - Perfect for presenting or focusing on your screenshot
+  - ESC to return to normal view
+
+- **Collapsible Toolbar** 📐: More canvas, less clutter
+  - Double-click or press `[` to collapse the tools
+  - Expands back with a single click
+  - Your workspace, your way
+
+- **Beautiful Empty State** 🖼️: A welcoming start
+  - Clear guidance for drag-drop, paste, or capture
+  - Quick action buttons for Screen, Window, Region capture
+  - Smart keyboard shortcut hints
+
+### Improved
+- **Premium Animations**: Smooth, polished transitions throughout
+- **Smarter Panels**: Automatically minimize when you start drawing
+- **Canvas-First Design**: More screen space for what matters most
+- **Visual Hierarchy**: Clear distinction between editing modes
+- **Accessibility**: Supports reduced motion preferences
+
+### Changed
+- Sidebar replaced with modern floating panels
+- Export and Edit controls are now separate, dedicated panels
+- Left toolbar can now be collapsed for more workspace
+
+---
+
 ## [1.7.0] - 2026-01-24
 
 ### Added
