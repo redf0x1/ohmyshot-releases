@@ -3,7 +3,7 @@
 Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 <p align="center">
-  <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-800w.webp" alt="OhMyShot Preview" width="700">
+  <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
 ## Features
@@ -32,6 +32,20 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 📸 Quick Capture Mode - capture and beautify in one smooth workflow
 - 🔔 Native notifications for capture feedback
 - 🖥️ Enhanced system tray with quick actions
+
+## Feature Showcase
+
+<p align="center">
+  <img src="https://ohmyshot.app/assets/images/showcase/gallery-01-gradients-full.webp" alt="Gradient Backgrounds" width="600">
+  <br>
+  <em>Professional gradient backgrounds</em>
+</p>
+
+<p align="center">
+  <img src="https://ohmyshot.app/assets/images/showcase/gallery-02-wallpapers-full.webp" alt="Wallpaper Backgrounds" width="600">
+  <br>
+  <em>Custom wallpaper backgrounds</em>
+</p>
 
 ## Keyboard Shortcuts
 
