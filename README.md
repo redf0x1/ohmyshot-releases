@@ -70,9 +70,9 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 |----------|--------|
 | H | Highlighter tool |
 | P | Pen tool |
-| 1-9 | Various drawing tools (select, pen, arrow, rectangle, text, etc.) |
+| 1-9 | Drawing tools (Press `?` in-app to see the complete mapping) |
 
-> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel" (see Panel Shortcuts above). This conflicts with the previous behavior where E activated the Ellipse drawing tool. Users expecting to use E for the Ellipse tool should use the toolbar instead. This will be addressed in a future update.
+> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel" (see Panel Shortcuts above). This conflicts with the previous behavior where E activated the Ellipse drawing tool (v1.2.0 and earlier). Users expecting to use E for the Ellipse tool should use the toolbar instead. This will be addressed in a future update.
 
 ## Known Issues
 
