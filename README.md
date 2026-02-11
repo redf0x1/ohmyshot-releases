@@ -49,16 +49,35 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Keyboard Shortcuts
 
+### System Shortcuts
 | Shortcut | Action |
 |----------|--------|
 | ⌘⌥3 | Screenshot region capture |
 | ⌘⌥4 | OCR Direct Capture (select & extract text) |
 | ⌘⌥5 | Quick Capture Mode |
-| E | Toggle Edit Panel |
+
+### Panel Shortcuts  
+| Shortcut | Action |
+|----------|--------|
 | X | Toggle Export Panel |
 | M | Toggle Minimal Mode |
 | [ | Collapse/Expand Toolbar |
 | ? | Show all shortcuts |
+
+### Tool Shortcuts
+| Shortcut | Action |
+|----------|--------|
+| H | Highlighter tool |
+| P | Pen tool |
+| 1-9 | Various drawing tools |
+
+> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel". This conflicts with the previous behavior where E activated the Ellipse drawing tool. This will be addressed in a future update.
+
+## Known Issues
+
+### v1.8.0
+
+- **E Key Shortcut Conflict**: The E key currently opens the Edit Panel instead of activating the Ellipse drawing tool. This is a known issue that will be fixed in an upcoming release. As a temporary workaround, you can access the Ellipse tool by clicking it directly from the toolbar.
 
 ## Download
 

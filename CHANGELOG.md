@@ -42,6 +42,9 @@ This release brings a completely reimagined interface designed for maximum focus
 - Export and Edit controls are now separate, dedicated panels
 - Left toolbar can now be collapsed for more workspace
 
+### Known Issues
+- **E Key Shortcut Conflict**: The E key now opens the Edit Panel, which conflicts with the previous behavior where it activated the Ellipse drawing tool (as mentioned in v1.2.0 tool shortcuts). Users can access the Ellipse tool by clicking it directly from the toolbar. This will be addressed in a future update.
+
 ---
 
 ## [1.7.0] - 2026-01-24
