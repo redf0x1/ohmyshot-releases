@@ -72,13 +72,13 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 | P | Pen tool |
 | 1-9 | Drawing tools (Press `?` in-app to see the complete mapping) |
 
-> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel" (see Panel Shortcuts above). This conflicts with the previous behavior where E activated the Ellipse drawing tool (v1.2.0 and earlier). Users expecting to use E for the Ellipse tool should use the toolbar instead. This will be addressed in a future update.
+> **Note**: In v1.8.0, the E key was reassigned from the Ellipse tool to "Toggle Edit Panel" (see Known Issues below for details).
 
 ## Known Issues
 
 ### v1.8.0
 
-- **E Key Shortcut Conflict**: The E key currently opens the Edit Panel instead of activating the Ellipse drawing tool. This is a known issue that will be fixed in an upcoming release. As a temporary workaround, you can access the Ellipse tool by clicking it directly from the toolbar.
+- **E Key Shortcut Conflict**: The E key currently opens the Edit Panel instead of activating the Ellipse drawing tool. In v1.2.0 and earlier versions, E was mapped to the Ellipse tool. This conflict will be resolved in a future update. **Workaround**: Access the Ellipse tool by clicking it directly from the toolbar.
 
 ## Download
 
