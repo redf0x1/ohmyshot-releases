@@ -78,7 +78,11 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ### v1.8.0
 
-- **E Key Shortcut Conflict**: The E key currently opens the Edit Panel instead of activating the Ellipse drawing tool. In v1.2.0 and earlier versions, E was mapped to the Ellipse tool. This conflict will be resolved in a future update. **Workaround**: Access the Ellipse tool by clicking it directly from the toolbar.
+- **E Key Shortcut Conflict**: 
+  - **Issue**: The E key currently opens the Edit Panel instead of activating the Ellipse drawing tool
+  - **History**: In v1.2.0 and earlier versions, E was mapped to the Ellipse tool
+  - **Status**: This conflict will be resolved in a future update
+  - **Workaround**: Access the Ellipse tool by clicking it directly from the toolbar
 
 ## Download
 
