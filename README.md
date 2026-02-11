@@ -32,6 +32,9 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 📸 Quick Capture Mode - capture and beautify in one smooth workflow
 - 🔔 Native notifications for capture feedback
 - 🖥️ Enhanced system tray with quick actions
+- 🎯 Capture & Beautify (⌘⌥6 / Ctrl+Alt+6) — one-click screenshot-to-beautiful
+- 🚀 Launch at Startup option
+- 💡 Keyboard shortcut hints on empty editor
 
 ## Feature Showcase
 
@@ -62,15 +65,17 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release: v1.8.0
+### Latest Release: v1.9.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.8.0/OhMyShot_1.8.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.8.0/OhMyShot_1.8.0_x64.dmg) |
-| Windows (v1.3.0) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.3.0/OhMyShot_1.3.0_x64-setup.exe) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.8.0/OhMyShot_1.8.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.8.0/OhMyShot-1.8.0-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64.dmg) |
+| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64-setup.exe) |
+| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64_en-US.msi) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot-1.9.0-1.x86_64.rpm) |
+| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot-1.9.0_amd64.AppImage) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -81,7 +86,13 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### macOS
 1. Download the `.dmg` file
 2. Open and drag OhMyShot to Applications
-3. If blocked by Gatekeeper: Right-click → Open → Open
+3. If macOS shows "The application can't be opened":
+  1. **Terminal (Recommended)**: Open Terminal and run:
+    ```bash
+    xattr -cr /Applications/OhMyShot.app
+    ```
+  2. **Right-click**: Right-click the app → Open → Open
+  3. **System Settings**: Go to System Settings → Privacy & Security → click "Open Anyway"
 
 #### Windows
 1. Download the `.exe` installer
@@ -91,10 +102,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.8.0_amd64.deb
+sudo dpkg -i OhMyShot_1.9.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.8.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.9.0-1.x86_64.rpm
 ```
 
 ## Privacy
