@@ -59,6 +59,7 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 ### Panel Shortcuts  
 | Shortcut | Action |
 |----------|--------|
+| E | Toggle Edit Panel |
 | X | Toggle Export Panel |
 | M | Toggle Minimal Mode |
 | [ | Collapse/Expand Toolbar |
@@ -69,9 +70,9 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 |----------|--------|
 | H | Highlighter tool |
 | P | Pen tool |
-| 1-9 | Various drawing tools |
+| 1-9 | Various drawing tools (select, pen, arrow, rectangle, text, etc.) |
 
-> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel". This conflicts with the previous behavior where E activated the Ellipse drawing tool. This will be addressed in a future update.
+> **Note**: In v1.8.0, the E key is currently mapped to "Toggle Edit Panel" (see Panel Shortcuts above). This conflicts with the previous behavior where E activated the Ellipse drawing tool. Users expecting to use E for the Ellipse tool should use the toolbar instead. This will be addressed in a future update.
 
 ## Known Issues
 
