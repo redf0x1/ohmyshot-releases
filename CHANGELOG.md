@@ -10,32 +10,83 @@ All notable changes to OhMyShot will be documented in this file.
 - System tray menu translates automatically
 - Auto-detects your system language on first launch
 
+### 📸 New: Floating Capture Preview
+- After a quick capture, a mini preview window appears in the corner
+- One-click actions: Edit, OCR, Save, or Copy — right from the preview
+- Auto-dismisses after 5 seconds; hover to keep it visible
+- Non-intrusive — never steals focus from your work
+
 ### 🎨 New: Smart Tool Settings
 - Each drawing tool now remembers its own settings
 - Switch between tools without losing your preferred size, color, and style
 - Settings persist across sessions — your workflow, your way
 
+### 📋 New: Auto-Copy Per Capture Mode
+- Independent auto-copy toggles for Screen, Region, and Window captures
+- Choose which capture modes automatically copy to clipboard
+- Configure each mode separately in Settings
+
 ### 🔄 New: Cross-Platform Auto-Updates
 - Seamless automatic updates now available on all platforms
 - Background update checks with zero interruption
+- "Check for Updates" available in the system tray menu
 - Always stay on the latest version
 
+### ⚡ Improved: Capture & Beautify
+- Now supports region selection — beautify any part of your screen, not just fullscreen
+- Window auto-hides after copying the beautified screenshot
+- Smoother cross-platform notifications
+
 ### ✏️ Improved: Text Tool
-- Smoother font switching — no more delays when changing fonts
-- Live preview while editing text settings
+- Text now scales correctly at all zoom levels — no more garbled or tiny text
+- Font and color changes apply instantly while editing
+- Font size slider always shows the correct value
+- Smoother text input — no jumping or flickering while typing
+- Cursor is always visible, even on light backgrounds
 - Better default text appearance (larger, with outline)
-- Fixed cursor display during text editing
+- Removed placeholder text for a cleaner editing experience
 
-### 📸 Improved: Window Capture
-- Cleaner window screenshots without unwanted borders (macOS)
-- More accurate window boundaries
+### 🖥️ Improved: Windows Experience
+- Fixed multi-screen capture on high-DPI displays
+- Region selection overlay scales correctly on HiDPI screens
+- Light tray icon for better visibility on dark taskbars
 
-### 🐛 Bug Fixes
-- Fixed crash when double-clicking text annotations to edit
-- Fixed font styles not applying in certain scenarios
-- Fixed text settings not updating while typing
-- Fixed display issues with text cursor appearance
-- Various stability improvements
+### 📦 Improved: Smaller & Faster (macOS)
+- macOS download size reduced by 80% — from 24MB to under 5MB
+- App uses native text recognition on macOS for faster, smaller builds
+
+### 🐛 Bug Fixes — Community Reports
+
+We fixed **20+ bugs** reported by the community. Thank you for your feedback!
+
+**Capture & Display:**
+- Fixed overlay mask persisting on screen after capture (#7)
+- Fixed crop tool only working in the top-left quarter (#8)
+- Fixed region capture flash on Windows (#10)
+- Fixed "Show in Folder" being hidden behind the app window (#13)
+- Fixed app not hiding properly on macOS after capture (#14)
+- Fixed captures from the system tray not showing the editor
+- Fixed background presets sometimes resetting after restart
+
+**Annotations:**
+- Fixed crash when double-clicking text to edit (#17)
+- Fixed text display issues at non-100% zoom (#18)
+- Fixed toolbar showing wrong message for selected annotations (#19)
+- Fixed color picker not matching the selected annotation's color (#20)
+- Fixed number annotations appearing tiny at low zoom (#21)
+- Fixed blur tool border showing in exported images (#23)
+- Fixed number annotations not being resizable (#11)
+- Fixed multiple spotlights progressively darkening the image (#15)
+
+**Shortcuts & Settings:**
+- Fixed Ctrl/Cmd mapping on macOS shortcuts (#9)
+- Fixed E key conflict — E now correctly selects Ellipse tool (#3)
+- Fixed annotation settings not saving between sessions (#24)
+- Fixed "Always on Top" covering other apps by default (#12)
+
+### 🔧 Under the Hood
+- Error reporting now works in production builds for faster issue resolution
+- Improved build pipeline for Windows and Linux releases
 
 ## [1.8.0] - 2026-01-26
 

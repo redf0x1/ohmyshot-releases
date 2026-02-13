@@ -52,6 +52,24 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
   - Cleaner screenshots without unwanted borders
   - More accurate window boundaries
 
+- 📸 **Floating Capture Preview**
+  - Mini preview window after capture with quick Edit/OCR/Save/Copy actions
+
+- 📋 **Auto-Copy Per Capture Mode**
+  - Independent auto-copy toggles for Screen, Region, and Window
+
+- ⚡ **Improved Capture & Beautify**
+  - Region selection support and auto-hide after copy
+
+- 🖥️ **Windows Improvements**
+  - HiDPI multi-screen fixes and light tray icon
+
+- 📦 **80% Smaller Download (macOS)**
+  - From 24MB to under 5MB
+
+- 🐛 **20+ Bug Fixes**
+  - Community-reported issues all resolved
+
 ## Feature Showcase
 
 <p align="center">
