@@ -6,6 +6,16 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
+## Demo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vC5QCDdPKFU">
+    <img src="https://img.youtube.com/vi/vC5QCDdPKFU/maxresdefault.jpg" alt="OhMyShot Demo Video" width="600">
+  </a>
+  <br>
+  <em>Watch the demo →</em>
+</p>
+
 ## Why OhMyShot
 
 Turn plain screenshots into polished visuals in seconds — perfect for social posts, documentation, tutorials, and product updates.
