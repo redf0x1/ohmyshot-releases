@@ -2,6 +2,41 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.10.0] - 2026-02-13
+
+### 🌐 New: Multi-Language Support
+- Full English and Vietnamese language support
+- Easy language switching in Settings
+- System tray menu translates automatically
+- Auto-detects your system language on first launch
+
+### 🎨 New: Smart Tool Settings
+- Each drawing tool now remembers its own settings
+- Switch between tools without losing your preferred size, color, and style
+- Settings persist across sessions — your workflow, your way
+
+### 🔄 New: Cross-Platform Auto-Updates
+- Seamless automatic updates now available on all platforms
+- Background update checks with zero interruption
+- Always stay on the latest version
+
+### ✏️ Improved: Text Tool
+- Smoother font switching — no more delays when changing fonts
+- Live preview while editing text settings
+- Better default text appearance (larger, with outline)
+- Fixed cursor display during text editing
+
+### 📸 Improved: Window Capture
+- Cleaner window screenshots without unwanted borders (macOS)
+- More accurate window boundaries
+
+### 🐛 Bug Fixes
+- Fixed crash when double-clicking text annotations to edit
+- Fixed font styles not applying in certain scenarios
+- Fixed text settings not updating while typing
+- Fixed display issues with text cursor appearance
+- Various stability improvements
+
 ## [1.8.0] - 2026-01-26
 
 ### 🎨 Major UI Redesign

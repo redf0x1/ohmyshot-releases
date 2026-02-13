@@ -6,35 +6,51 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
+## Why OhMyShot
+
+Turn plain screenshots into polished visuals in seconds — perfect for social posts, documentation, tutorials, and product updates.
+
 ## Features
 
-- 🎨 Professional gradients and backgrounds
-- 🖼️ Custom wallpapers and colors
-- ✨ Shadows, borders, and effects
-- 📐 Multiple aspect ratios and sizes
-- 🔒 100% offline - no data collection
-- ⚡ Fast and lightweight
-- 🔍 Blur/Pixelate tool for sensitive info
-- ↔️ Enhanced arrows with multiple head styles
-- 📝 OCR text extraction (Live Text style)
-- 📷 QR code detection
-- ⌨️ Keyboard shortcuts modal (press ?)
-- 📌 Always on Top option
-- 🎨 Enhanced Gradient System with categories & search
-- 🖼️ Enhanced Wallpaper System with favorites & recents
-- ⚡ Lightning-fast text recognition
-- 🎨 Professional toolbar with Highlighter tool (H)
-- ✨ **NEW** Floating Editing Panels - on-demand Edit (E) and Export (X) panels
-- 🎯 **NEW** Minimal Mode - press M for distraction-free canvas
-- 📐 **NEW** Collapsible Toolbar - double-click or press [ to collapse
-- 🖼️ **NEW** Beautiful Empty State with quick capture actions
-- 🔤 OCR Direct Capture - select screen region and extract text instantly
-- 📸 Quick Capture Mode - capture and beautify in one smooth workflow
-- 🔔 Native notifications for capture feedback
-- 🖥️ Enhanced system tray with quick actions
-- 🎯 Capture & Beautify (⌘⌥6 / Ctrl+Alt+6) — one-click screenshot-to-beautiful
-- 🚀 Launch at Startup option
-- 💡 Keyboard shortcut hints on empty editor
+- 🎨 Professional gradients, wallpapers, and clean background styles
+- ✨ Shadows, borders, rounded corners, and presentation-ready effects
+- 🖌️ Powerful annotation tools for arrows, highlights, shapes, and text
+- 📐 Multiple aspect ratios and export-ready layouts
+- 🌐 Multi-language support (English + Vietnamese)
+- 🧠 Smart Tool Settings: each tool remembers its own style and size
+- 🔄 Cross-platform auto-updates
+- ✏️ Improved text tool with smoother editing and better defaults
+- 📸 Better window capture with cleaner boundaries
+- 🔒 100% offline — no data collection
+- ⚡ Fast, lightweight, and built for daily workflow
+
+## What’s New in v1.10.0
+
+- 🌐 **Multi-Language Support**
+  - Full English and Vietnamese support
+  - Easy language switching in Settings
+  - Tray menu follows your selected language
+  - Auto-detects system language on first launch
+
+- 🎨 **Smart Tool Settings**
+  - Each drawing tool remembers its own settings
+  - Switch tools without losing preferred size, color, and style
+  - Preferences persist across sessions
+
+- 🔄 **Cross-Platform Auto-Updates**
+  - Automatic updates available on all supported platforms
+  - Quiet background update checks
+  - Always stay on the latest version
+
+- ✏️ **Improved Text Tool**
+  - Smoother font switching
+  - Live preview while editing text settings
+  - Better default text appearance
+  - Improved cursor behavior during text editing
+
+- 📸 **Improved Window Capture**
+  - Cleaner screenshots without unwanted borders
+  - More accurate window boundaries
 
 ## Feature Showcase
 
@@ -50,40 +66,27 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <em>Custom wallpaper backgrounds</em>
 </p>
 
-## Keyboard Shortcuts
-
-| Shortcut | Action |
-|----------|--------|
-| ⌘⌥3 | Screenshot region capture |
-| ⌘⌥4 | OCR Direct Capture (select & extract text) |
-| ⌘⌥5 | Quick Capture Mode |
-| E | Toggle Edit Panel |
-| X | Toggle Export Panel |
-| M | Toggle Minimal Mode |
-| [ | Collapse/Expand Toolbar |
-| ? | Show all shortcuts |
-
 ## Download
 
-### Latest Release: v1.9.0
+### Latest Release: v1.10.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64.dmg) |
-| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64-setup.exe) |
-| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_x64_en-US.msi) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot_1.9.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot-1.9.0-1.x86_64.rpm) |
-| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.9.0/OhMyShot-1.9.0_amd64.AppImage) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64.dmg) |
+| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64-setup.exe) |
+| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64_en-US.msi) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.10.0-1.x86_64.rpm) |
+| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_amd64.AppImage) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
 [View all releases →](https://github.com/redf0x1/ohmyshot-releases/releases)
 
-### Installation
+## Installation
 
-#### macOS
+### macOS
 1. Download the `.dmg` file
 2. Open and drag OhMyShot to Applications
 3. If macOS shows "The application can't be opened":
@@ -94,18 +97,18 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   2. **Right-click**: Right-click the app → Open → Open
   3. **System Settings**: Go to System Settings → Privacy & Security → click "Open Anyway"
 
-#### Windows
+### Windows
 1. Download the `.exe` installer
 2. Run the installer
 3. Follow the installation wizard
 
-#### Linux
+### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.9.0_amd64.deb
+sudo dpkg -i OhMyShot_1.10.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.9.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.10.0-1.x86_64.rpm
 ```
 
 ## Privacy
