@@ -22,63 +22,29 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 
 ## Features
 
-- 🎨 Professional gradients, wallpapers, and clean background styles
-- ✨ Shadows, borders, rounded corners, and presentation-ready effects
-- 🖌️ Powerful annotation tools for arrows, highlights, shapes, and text
-- 📐 Multiple aspect ratios and export-ready layouts
-- 🌐 Multi-language support (English + Vietnamese)
-- 🧠 Smart Tool Settings: each tool remembers its own style and size
+- 📸 6 capture modes (Screen, Region, Window, OCR Direct, Quick, Capture & Beautify)
+- ✏️ 12 annotation tools (Select, Rect, Ellipse, Line, Arrow, Text, Number, Freehand, Highlighter, Spotlight, Blur/Pixelate, Eyedropper + Crop)
+- 🎨 200+ wallpapers, 65+ gradients
+- ☁️ Cloud Upload via ImgBB (**NEW** in v1.11.0)
+- 🕘 Upload History panel (**NEW** in v1.11.0)
+- ⚡ Auto-upload after Capture & Beautify (**NEW** in v1.11.0)
+- 🌍 Multi-language (English/Vietnamese) with auto-detect
+- 🪟 Floating capture preview
+- 🎛️ Smart tool settings
 - 🔄 Cross-platform auto-updates
-- ✏️ Improved text tool with smoother editing and better defaults
-- 📸 Better window capture with cleaner boundaries
-- 🔒 100% offline — no data collection
-- ⚡ Fast, lightweight, and built for daily workflow
+- 📝 OCR text extraction + QR code detection
+- 💧 Watermark with auto-sizing
+- ⌨️ 25+ keyboard shortcuts
+- 📱 7 social media presets
+- 🖼️ PNG/JPEG 1x/2x/3x export
+- 🌙 Dark mode
+- 🖥️ System tray integration
 
-## What’s New in v1.10.0
+## What’s New in v1.11.0
 
-- 🌐 **Multi-Language Support**
-  - Full English and Vietnamese support
-  - Easy language switching in Settings
-  - Tray menu follows your selected language
-  - Auto-detects system language on first launch
-
-- 🎨 **Smart Tool Settings**
-  - Each drawing tool remembers its own settings
-  - Switch tools without losing preferred size, color, and style
-  - Preferences persist across sessions
-
-- 🔄 **Cross-Platform Auto-Updates**
-  - Automatic updates available on all supported platforms
-  - Quiet background update checks
-  - Always stay on the latest version
-
-- ✏️ **Improved Text Tool**
-  - Smoother font switching
-  - Live preview while editing text settings
-  - Better default text appearance
-  - Improved cursor behavior during text editing
-
-- 📸 **Improved Window Capture**
-  - Cleaner screenshots without unwanted borders
-  - More accurate window boundaries
-
-- 📸 **Floating Capture Preview**
-  - Mini preview window after capture with quick Edit/OCR/Save/Copy actions
-
-- 📋 **Auto-Copy Per Capture Mode**
-  - Independent auto-copy toggles for Screen, Region, and Window
-
-- ⚡ **Improved Capture & Beautify**
-  - Region selection support and auto-hide after copy
-
-- 🖥️ **Windows Improvements**
-  - HiDPI multi-screen fixes and light tray icon
-
-- 📦 **80% Smaller Download (macOS)**
-  - From 24MB to under 5MB
-
-- 🐛 **20+ Bug Fixes**
-  - Community-reported issues all resolved
+- ☁️ Cloud Upload via ImgBB — upload and get a shareable link in one click
+- 🕘 Upload History panel — copy/open/delete your recent uploads
+- ⚡ Auto-upload after Capture & Beautify — capture → beautify → upload
 
 ## Feature Showcase
 
@@ -96,17 +62,17 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 
 ## Download
 
-### Latest Release: v1.10.0
+### Latest Release: v1.11.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64.dmg) |
-| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64-setup.exe) |
-| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_x64_en-US.msi) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.10.0-1.x86_64.rpm) |
-| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.10.0_amd64.AppImage) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64.dmg) |
+| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64-setup.exe) |
+| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64_en-US.msi) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.11.0-1.x86_64.rpm) |
+| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_amd64.AppImage) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -133,19 +99,21 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 ### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.10.0_amd64.deb
+sudo dpkg -i OhMyShot_1.11.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.10.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.11.0-1.x86_64.rpm
 ```
 
 ## Privacy
 
-OhMyShot is 100% offline. We collect **no data**:
+OhMyShot is privacy-first:
 - No analytics or tracking
 - No telemetry
-- No cloud storage
 - No account required
+- Works offline by default (Cloud Upload is optional)
+
+If you enable Cloud Upload, your screenshot is uploaded to ImgBB to generate a shareable link.
 
 See our [Privacy Policy](https://ohmyshot.app/privacy.html) for details.
 

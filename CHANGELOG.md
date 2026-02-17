@@ -1,6 +1,31 @@
-# Changelog
+# Changelog / Nhật ký thay đổi
 
 All notable changes to OhMyShot will be documented in this file.
+
+## [1.11.0] - 2026-02-17
+
+### ☁️ New: Cloud Upload (ImgBB)
+- Cloud upload via ImgBB — one-click share screenshots as URLs
+- Upload history panel with copy/delete/open actions
+- Sharing settings — enable/disable upload, auto-copy link, custom API key
+- Upload progress toast — real-time upload status feedback
+- Auto-upload after beautify — automatically upload after Capture & Beautify
+- System tray "Upload Last Screenshot" — quick upload from tray menu
+- Auto-upload toggle in Sharing settings
+
+### ✨ UX Improvements
+- Floating panel position clamping — panels stay within viewport
+- Upload history sidebar panel with search and auto-cleanup
+- SliderInput component with direct numeric input
+- Watermark auto-size toggle for dynamic font sizing
+- Fixed social media preset dimensions incorrect
+
+### 🐛 Bug Fixes
+- Text not selectable when editing annotations (select-none removed from annotation layer)
+- Windows DWM rendering issue — added 100ms delay for Windows DWM flush
+- App icon missing on Windows — added icon.ico to tauri.conf.json
+- Collapsible panels accessibility — added keyboard support and ARIA attributes
+- Number annotation counter not resetting between sessions
 
 ## [1.10.0] - 2026-02-13
 
@@ -88,45 +113,77 @@ We fixed **20+ bugs** reported by the community. Thank you for your feedback!
 - Error reporting now works in production builds for faster issue resolution
 - Improved build pipeline for Windows and Linux releases
 
+## [1.9.0] - 2026-02-10
+
+### ⚡ New: Capture & Beautify
+
+One-click screenshot magic! Press **⌘⌥6** (Mac) or **Ctrl+Alt+6** (Windows/Linux) to capture your screen, auto-apply your favorite background style, and copy the result to clipboard — all in one step.
+
+### 🚀 New: Launch at Startup
+
+OhMyShot can now start automatically when you log in. Enable it in **Settings → Behavior**.
+
+### 🎯 Improved: Shortcut Hints
+
+New keyboard shortcut hints appear when the editor is empty.
+
+### 🐛 Fixed
+
+- **OCR text extraction** now works reliably on Windows and Linux
+- **Multi-screen capture** on macOS correctly captures the active monitor
+- **Empty OCR results** show a friendly message instead of an error
+- **Linux compatibility** improved — runs on a wider range of distributions
+
+### 📦 Smaller & Faster
+
+Significantly reduced app download size.
+
 ## [1.8.0] - 2026-01-26
 
-### 🎨 Major UI Redesign
+### ✨ Major UI Redesign
 
-This release brings a completely reimagined interface designed for maximum focus and efficiency.
+This release brings a completely reimagined editing experience. We've rebuilt the interface from the ground up to give you more space, more focus, and a more delightful workflow.
 
 ### Added
-- **Floating Editing Panels** ✨: Say goodbye to the fixed sidebar!
-  - Edit panel appears on-demand (press `E`) for background and crop settings
-  - Export panel pops up when you need it (press `X`)
-  - Panels auto-hide after 5 seconds to keep your canvas clean
-  - Smart hiding when you're drawing annotations
-
-- **Minimal Mode** 🎯: Ultimate distraction-free editing
-  - Press `M` to hide everything except your canvas
-  - Perfect for presenting or focusing on your screenshot
-  - ESC to return to normal view
-
-- **Collapsible Toolbar** 📐: More canvas, less clutter
-  - Double-click or press `[` to collapse the tools
-  - Expands back with a single click
-  - Your workspace, your way
-
-- **Beautiful Empty State** 🖼️: A welcoming start
-  - Clear guidance for drag-drop, paste, or capture
-  - Quick action buttons for Screen, Window, Region capture
-  - Smart keyboard shortcut hints
+- **Floating Panel System** 🎨: Say goodbye to the cramped sidebar!
+  - Panels now float elegantly over your canvas
+  - Your screenshot gets the full stage it deserves
+  - Panels appear when you need them, vanish when you don't
+- **Minimal Mode** (Press `M`) 🧘: Ultimate distraction-free editing
+  - Hide everything – just you and your canvas
+  - Perfect for detailed annotation work
+  - Press `M` again to bring UI back instantly
+- **Smart Edit Panel** (Press `E`) ⚙️: All background & crop controls in one place
+  - Quick access to gradients, colors, and wallpapers
+  - Padding, corner radius, and aspect ratio settings
+  - Auto-hides after 5 seconds of inactivity
+- **Quick Export Panel** (Press `X`) 📤: Streamlined export workflow
+  - One-click access to all export options
+  - Copy, save, or share in seconds
+  - Stays out of your way until you need it
+- **Collapsible Toolbar** 📐: Double-click or press `[` to minimize
+  - Reclaim even more canvas space when needed
+  - Compact mode keeps essential tools accessible
+- **Beautiful Empty State** 🎯: Helpful guidance for new users
+  - Clear instructions for getting started
+  - Drag & drop, paste, or capture – your choice
+  - Quick action buttons to jump right in
 
 ### Improved
-- **Premium Animations**: Smooth, polished transitions throughout
-- **Smarter Panels**: Automatically minimize when you start drawing
-- **Canvas-First Design**: More screen space for what matters most
-- **Visual Hierarchy**: Clear distinction between editing modes
-- **Accessibility**: Supports reduced motion preferences
+- **Smarter Panel Behavior**: Panels auto-hide when you start drawing
+  - No more accidentally clicking UI while annotating
+  - Seamlessly returns when you're done
+- **Silky Smooth Animations**: Premium transitions throughout
+  - Every panel, every hover, every interaction feels polished
+  - Respects "Reduce Motion" accessibility preference
+- **Cleaner Visual Hierarchy**: Less clutter, more clarity
+  - Tools disabled until you have an image (no confusion)
+  - Visual feedback on every interaction
 
 ### Changed
-- Sidebar replaced with modern floating panels
-- Export and Edit controls are now separate, dedicated panels
-- Left toolbar can now be collapsed for more workspace
+- Sidebar replaced with floating panel architecture
+- Export and edit controls moved to dedicated smart panels
+- Toolbar now collapsible for maximum workspace flexibility
 
 ---
 
@@ -149,8 +206,6 @@ This release brings a completely reimagined interface designed for maximum focus
 - **Enhanced System Tray Menu**: Redesigned with icons and keyboard shortcut hints
   - Quick access to all capture modes at a glance
   - Visual shortcuts help you learn the app faster
-
----
 
 ## [1.6.0] - 2026-01-24
 
@@ -175,27 +230,24 @@ This release brings a completely reimagined interface designed for maximum focus
 - Window capture works consistently across different app types
 - Various UI polish and refinements
 
----
-
 ## [1.3.0] - 2026-01-23
 
 ### Added
-- **Enhanced Gradient System**: New tabbed interface with categories and search functionality
-- **Enhanced Wallpaper System**: Favorites, recents, and search for quick wallpaper access
+- **Enhanced Gradient System**: Redesigned gradient picker with tabs, categories, and search functionality
+- **Enhanced Wallpaper System**: New wallpaper picker with favorites, recents, and search capabilities
 
 ### Changed
 - Updated domain and social links across the application
+- Updated GitHub repository references
 
 ### Fixed
-- OCR text extraction improvements based on customer feedback
-- Various settings-related issues resolved
-
----
+- Addressed customer feedback for OCR text extraction
+- Fixed various settings-related issues based on user reports
 
 ## [1.2.0] - 2026-01-22
 
 ### Added
-- **OCR Text Extraction**: Extract text from screenshots with lightning-fast OCR
+- **OCR Text Extraction**: Extract text from screenshots using Tesseract.js (Live Text style)
   - Press `Shift+T` to enter text selection mode
   - Word-level selection with blue highlight overlay
 - **QR Code Detection**: Scan and decode QR codes from screenshots automatically
@@ -211,43 +263,43 @@ This release brings a completely reimagined interface designed for maximum focus
 
 ### Changed
 - Enhanced keyboard shortcuts with Space-to-Select (hold Space to temporarily switch to Select tool)
-- Improved OCR performance
+- Improved performance with lazy-loaded OCR worker
 
----
-
-## [1.1.0] - 2026-01-22
+## [1.1.0] - 2026-01-21
 
 ### Added
-- **Blur/Pixelate Tool**: Hide sensitive information with blur or pixelate effects
-- **Enhanced Arrow Tool**: Double-headed arrows with 3 head styles (triangle, rounded, diamond)
-- **Copy & Close**: ⌘+C now closes window after copy (configurable in Settings)
-- **Click-to-Record Shortcuts**: New intuitive keyboard shortcut capture UI in Settings
+- **Blur/Pixelate Tool**: Hide sensitive info with blur or pixelate effects
+- **Enhanced Arrow Tool**: Double-headed arrows, 3 head styles (triangle, rounded, diamond)
+- **Copy & Close**: CMD+C now closes window after copy (configurable in Settings)
+- **Click-to-Record Shortcuts**: New keyboard shortcut capture UI in Settings
 - **Dark Theme Menu Bar**: Native dark theme support for macOS title bar
 
 ### Fixed
 - Toolbar overflow: Settings button no longer clips outside viewport
 - Screen Recording Permission: Fixed Info.plist key typo (NSScreenCaptureUsageDescription)
+- Shortcut Recording: New click-to-record interface replaces text input
 - macOS Titlebar: Proper 32px safe area for traffic lights
 
 ### Changed
-- Arrow tool now directly accessible in toolbar (moved from dropdown)
-- Toolbar now scrollable when space is insufficient
+- Arrow tool now directly accessible in toolbar (not hidden in dropdown)
+- Toolbar scrollable when space is insufficient
 
----
+## [1.0.1] - 2026-01-21
 
-## [1.0.0] - 2025-01-20
+### Fixed / Sửa lỗi
+- Fixed Settings modal UI overflow on smaller screens
+- Improved slider components layout in Settings panel
 
-### Added
-- Initial release
-- Screenshot capture (full screen, window, region)
-- Background customization (gradients, wallpapers, solid colors)
-- Frame effects (shadows, borders, rounded corners)
-- Multiple export formats (PNG, JPEG, WebP)
-- Aspect ratio presets
-- Keyboard shortcuts
-- Auto-update functionality
+## [1.0.0] - 2026-01-19
 
-### Platforms
-- macOS (Apple Silicon & Intel)
-- Windows (x64)
-- Linux (Debian, RPM, AppImage)
+### Added / Thêm mới
+- Screenshot capture (fullscreen, region selection, window capture)
+- Annotation tools (shapes, arrows, text, brush, spotlight)
+- Beautification (gradients, wallpapers, solid colors, custom images)
+- Image styling (blur, shadow, border radius, padding, border)
+- Crop with 8 aspect ratio presets
+- Export PNG/JPEG with 1x/2x/3x resolution
+- Cross-platform support (Windows, macOS, Linux)
+- System tray integration
+- Global hotkeys
+- Auto-update
