@@ -2,6 +2,18 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.11.1] - 2026-02-20
+
+### Fixed
+- Fixed region capture not showing screenshot on Windows (double data URL prefix in cropBase64Image) (#38)
+- Fixed number input spinners showing ugly native browser controls
+- Fixed bottom bar content overflowing into "Select an annotation to edit" status text
+- Fixed floating edit/export panels overlapping bottom settings bar
+
+### Improved
+- Added compact mode for SliderInput in bottom toolbar (horizontal single-row layout)
+- Added CSS overflow protections across toolbar components
+
 ## [1.11.0] - 2026-02-17
 
 ### ☁️ New: Cloud Upload (ImgBB)
