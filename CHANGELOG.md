@@ -2,6 +2,16 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.12.1] - 2026-02-23
+
+### 🐛 Fixed
+- Fixed small white gap at screen edges during region capture on Windows (#48)
+- Fixed "Show in Folder" not working on Windows — Explorer now opens correctly (#44)
+- Fixed Settings dropdowns unreadable in dark mode on Windows (#49)
+
+### ✨ Improved
+- Updated default border settings for better out-of-box experience — white border, width 11, opacity 21 (#50)
+
 ## [1.12.0] - 2026-02-23
 
 ### ✨ New: Focus Blur Tool
@@ -57,7 +67,7 @@ All notable changes to OhMyShot will be documented in this file.
 ### 🐛 Bug Fixes
 - Text not selectable when editing annotations (select-none removed from annotation layer)
 - Windows DWM rendering issue — added 100ms delay for Windows DWM flush
-- App icon missing on Windows — added icon.ico to tauri.conf.json
+- App icon missing on Windows — fixed installer/app icon configuration
 - Collapsible panels accessibility — added keyboard support and ARIA attributes
 - Number annotation counter not resetting between sessions
 
