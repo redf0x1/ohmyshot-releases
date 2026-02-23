@@ -2,6 +2,28 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.12.0] - 2026-02-23
+
+### ✨ New: Focus Blur Tool
+- New annotation tool that blurs the background to highlight important content
+- Draw focus areas to direct attention — everything outside gets blurred
+- Press `D` to activate
+
+### Added
+- **PrintScreen Key Capture** (Windows/Linux) — capture with a single key press, configurable in Settings
+- **Transparent Background Toggle** — quickly switch between transparent and your previous background with one click
+
+### Improved
+- Image automatically re-centers when Edit/Export panels open or close
+- More accurate region capture on multi-monitor setups with different display scales
+- Smoother Focus Blur preview while drawing and dragging
+
+### Fixed
+- Fixed black screen when loading images — a loading indicator now appears
+- Fixed Focus Blur effect not appearing during the first drawing
+- Fixed region selection not responding to clicks on Windows multi-monitor setups
+- Fixed multiple app instances being able to run at the same time — launching again now focuses the existing window
+
 ## [1.11.1] - 2026-02-20
 
 ### Fixed
