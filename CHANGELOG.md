@@ -2,6 +2,21 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.13.0] - 2025-02-25
+
+### Fixed
+- **Vietnamese Input**: Resolved keyboard conflict with Vietnamese input methods (EVKey, UniKey) that caused typing issues
+- **Screenshot Quality**: Improved screenshot capture quality for sharper, pixel-perfect results
+- **Text Editing**: Better support for Vietnamese, Chinese, Japanese, and Korean text input in annotations
+- **Edit Panel**: Fixed panel position jumping when editing annotations
+
+### Added
+- **Text Background**: Add background color and opacity settings for text annotations
+- **Reset Defaults**: New option in Settings to restore all tool settings to defaults
+
+### Changed
+- Callout annotation tool temporarily hidden (under development)
+
 ## [1.12.1] - 2026-02-23
 
 ### 🐛 Fixed
@@ -10,7 +25,7 @@ All notable changes to OhMyShot will be documented in this file.
 - Fixed Settings dropdowns unreadable in dark mode on Windows (#49)
 
 ### ✨ Improved
-- Updated default border settings for a better out-of-box look (#50)
+- Updated default border settings for better out-of-box experience — white border, width 11, opacity 21 (#50)
 
 ## [1.12.0] - 2026-02-23
 
@@ -169,7 +184,7 @@ OhMyShot can now start automatically when you log in. Enable it in **Settings �
 
 ### 🎯 Improved: Shortcut Hints
 
-New keyboard shortcut hints appear in the editor empty state.
+New keyboard shortcut hints appear when the editor is empty.
 
 ### 🐛 Fixed
 
