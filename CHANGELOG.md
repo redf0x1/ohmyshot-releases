@@ -2,6 +2,24 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.14.0] - 2026-02-25
+
+### Added
+- **Capture Timer**: Set a delay before screenshots (3, 5, or 10 seconds) — gives you time to arrange windows or menus
+- Animated countdown overlay shows remaining seconds before capture
+- Press Esc or the same shortcut key to cancel the countdown at any time
+- Press a different capture shortcut during countdown to switch capture mode
+- Timer works with all capture types: Full Screen, Region, Window, Scrolling, Recording, and Text Recognition
+- Timer can be triggered from both keyboard shortcuts and the tray menu
+
+### Fixed
+- Settings dropdowns now display correctly above other content
+- Settings dropdown options are easier to read with improved contrast
+- Countdown overlay now appears with a transparent background instead of a white box
+
+### Changed
+- All dropdowns in Settings (Language, PrintScreen Action, Capture Delay) have improved layering behavior
+
 ## [1.13.0] - 2025-02-25
 
 ### Fixed
