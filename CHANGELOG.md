@@ -20,7 +20,7 @@ All notable changes to OhMyShot will be documented in this file.
 ### Changed
 - All dropdowns in Settings (Language, PrintScreen Action, Capture Delay) have improved layering behavior
 
-## [1.13.0] - 2025-02-25
+## [1.13.0] - 2026-02-25
 
 ### Fixed
 - **Vietnamese Input**: Resolved keyboard conflict with Vietnamese input methods (EVKey, UniKey) that caused typing issues

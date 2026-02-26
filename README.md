@@ -23,11 +23,13 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 ## Features
 
 - 📸 6 capture modes (Screen, Region, Window, OCR Direct, Quick, Capture & Beautify)
-- ✏️ 12 annotation tools (Select, Rect, Ellipse, Line, Arrow, Text, Number, Freehand, Highlighter, Spotlight, Blur/Pixelate, Eyedropper + Crop)
+- ⏱️ Capture Timer (3s, 5s, 10s) with animated countdown (**NEW** in v1.14.0)
+- 🔦 Focus Blur tool to highlight content (**NEW** in v1.12.0)
+- ✏️ 13 annotation tools (Select, Rect, Ellipse, Line, Arrow, Text, Number, Freehand, Highlighter, Spotlight, Focus Blur, Blur/Pixelate, Eyedropper + Crop)
 - 🎨 200+ wallpapers, 65+ gradients
-- ☁️ Cloud Upload via ImgBB (**NEW** in v1.11.0)
-- 🕘 Upload History panel (**NEW** in v1.11.0)
-- ⚡ Auto-upload after Capture & Beautify (**NEW** in v1.11.0)
+- ☁️ Cloud Upload via ImgBB
+- 🕘 Upload History panel
+- ⚡ Auto-upload after Capture & Beautify
 - 🌍 Multi-language (English/Vietnamese) with auto-detect
 - 🪟 Floating capture preview
 - 🎛️ Smart tool settings
@@ -40,11 +42,14 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 - 🌙 Dark mode
 - 🖥️ System tray integration
 
-## What’s New in v1.11.0
+## What’s New in v1.14.0
 
-- ☁️ Cloud Upload via ImgBB — upload and get a shareable link in one click
-- 🕘 Upload History panel — copy/open/delete your recent uploads
-- ⚡ Auto-upload after Capture & Beautify — capture → beautify → upload
+- ⏱️ **Capture Timer**: Set a delay (3s, 5s, 10s) before capturing to arrange menus/windows
+- 🎞️ **Animated Countdown**: Visual overlay showing remaining seconds
+- 🔦 **Focus Blur Tool** (v1.12.0): Draw focus areas to blur everything else
+- ⌨️ **PrintScreen Key Support** (v1.12.0): Capture with a single key press on Windows/Linux
+- 🎨 **Transparent Background Toggle** (v1.12.0): Quickly switch to transparent background
+- 🐛 **Fixes**: Better Settings dropdowns, Vietnamese input support, and UI improvements
 
 ## Feature Showcase
 
@@ -62,17 +67,17 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 
 ## Download
 
-### Latest Release: v1.11.0
+### Latest Release: v1.14.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64.dmg) |
-| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64-setup.exe) |
-| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_x64_en-US.msi) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.11.0-1.x86_64.rpm) |
-| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.11.0_amd64.AppImage) |
+| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_aarch64.dmg) |
+| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64.dmg) |
+| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64-setup.exe) |
+| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64_en-US.msi) |
+| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.14.0-1.x86_64.rpm) |
+| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_amd64.AppImage) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -99,10 +104,10 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
 ### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.11.0_amd64.deb
+sudo dpkg -i OhMyShot_1.14.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.11.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.14.0-1.x86_64.rpm
 ```
 
 ## Privacy
