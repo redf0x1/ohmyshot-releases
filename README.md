@@ -6,50 +6,36 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-## Demo
+## What's New in v1.17.0
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=vC5QCDdPKFU">
-    <img src="https://img.youtube.com/vi/vC5QCDdPKFU/maxresdefault.jpg" alt="OhMyShot Demo Video" width="600">
-  </a>
-  <br>
-  <em>Watch the demo →</em>
-</p>
-
-## Why OhMyShot
-
-Turn plain screenshots into polished visuals in seconds — perfect for social posts, documentation, tutorials, and product updates.
+- 🎥 GIF Screen Recording — record any screen region as animated GIF
+- 📌 Pin Screenshot — always-on-top floating window
+- 📚 Template Library — save and apply beautifier templates
+- 🗂️ Annotation Layers Panel — visibility and reorder controls
+- 💬 Callout Annotation Tool — speech bubbles with leader lines
+- 🖼️ WebP Export Format
+- 📝 Custom Filename Templates
+- 📋 Annotation Copy & Paste
+- 🏷️ Watermark Image/Logo — tiling and rotation support
+- 🌍 17 new languages (19 total)
+- 🎬 GIF Preview Redesign — save, save as, edit first frame, re-record, discard
+- 🔧 Dozens of bug fixes and improvements
 
 ## Features
 
-- 📸 6 capture modes (Screen, Region, Window, OCR Direct, Quick, Capture & Beautify)
-- ⏱️ Capture Timer (3s, 5s, 10s) with animated countdown (**NEW** in v1.14.0)
-- 🔦 Focus Blur tool to highlight content (**NEW** in v1.12.0)
-- ✏️ 13 annotation tools (Select, Rect, Ellipse, Line, Arrow, Text, Number, Freehand, Highlighter, Spotlight, Focus Blur, Blur/Pixelate, Eyedropper + Crop)
-- 🎨 200+ wallpapers, 65+ gradients
-- ☁️ Cloud Upload via ImgBB
-- 🕘 Upload History panel
-- ⚡ Auto-upload after Capture & Beautify
-- 🌍 Multi-language (English/Vietnamese) with auto-detect
-- 🪟 Floating capture preview
-- 🎛️ Smart tool settings
-- 🔄 Cross-platform auto-updates
-- 📝 OCR text extraction + QR code detection
-- 💧 Watermark with auto-sizing
-- ⌨️ 25+ keyboard shortcuts
-- 📱 7 social media presets
-- 🖼️ PNG/JPEG 1x/2x/3x export
-- 🌙 Dark mode
-- 🖥️ System tray integration
-
-## What’s New in v1.14.0
-
-- ⏱️ **Capture Timer**: Set a delay (3s, 5s, 10s) before capturing to arrange menus/windows
-- 🎞️ **Animated Countdown**: Visual overlay showing remaining seconds
-- 🔦 **Focus Blur Tool** (v1.12.0): Draw focus areas to blur everything else
-- ⌨️ **PrintScreen Key Support** (v1.12.0): Capture with a single key press on Windows/Linux
-- 🎨 **Transparent Background Toggle** (v1.12.0): Quickly switch to transparent background
-- 🐛 **Fixes**: Better Settings dropdowns, Vietnamese input support, and UI improvements
+- 📸 Screenshot capture (full screen, region, window)
+- 🎥 GIF screen recording
+- 🎨 Beautiful backgrounds, gradients, borders, shadows
+- ✏️ 10+ annotation tools (arrow, text, rectangle, circle, line, freehand, blur, highlighter, numbering, callout)
+- 🗂️ Annotation layers panel
+- 📌 Pin screenshots (always-on-top)
+- 📚 Template library
+- 🖼️ Export to PNG, JPEG, WebP, GIF
+- 📝 Custom filename templates
+- 💧 Watermark (text + image/logo)
+- 📋 Annotation copy/paste
+- 🌍 19 languages supported
+- 🔄 Auto-update
 
 ## Feature Showcase
 
@@ -65,27 +51,40 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
   <em>Custom wallpaper backgrounds</em>
 </p>
 
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| ⌘⌥3 | Screenshot region capture |
+| ⌘⌥4 | OCR Direct Capture (select & extract text) |
+| ⌘⌥5 | Quick Capture Mode |
+| E | Toggle Edit Panel |
+| X | Toggle Export Panel |
+| M | Toggle Minimal Mode |
+| [ | Collapse/Expand Toolbar |
+| ? | Show all shortcuts |
+
 ## Download
 
-### Latest Release: v1.14.0
+### Latest Release: v1.17.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_aarch64.dmg) |
-| macOS (Intel) | [Download .dmg](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64.dmg) |
-| Windows (Installer) | [Download .exe](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64-setup.exe) |
-| Windows (MSI) | [Download .msi](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_x64_en-US.msi) |
-| Linux (Debian/Ubuntu) | [Download .deb](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [Download .rpm](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot-1.14.0-1.x86_64.rpm) |
-| Linux (AppImage) | [Download .AppImage](https://github.com/redf0x1/ohmyshot-releases/releases/latest/download/OhMyShot_1.14.0_amd64.AppImage) |
+| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_aarch64.dmg) |
+| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64.dmg) |
+| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64-setup.exe) |
+| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64_en-US.msi) |
+| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_amd64.AppImage) |
+| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot-1.17.0-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot-1.17.0-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
 [View all releases →](https://github.com/redf0x1/ohmyshot-releases/releases)
 
-## Installation
+### Installation
 
-### macOS
+#### macOS
 1. Download the `.dmg` file
 2. Open and drag OhMyShot to Applications
 3. If macOS shows "The application can't be opened":
@@ -96,18 +95,19 @@ Turn plain screenshots into polished visuals in seconds — perfect for social p
   2. **Right-click**: Right-click the app → Open → Open
   3. **System Settings**: Go to System Settings → Privacy & Security → click "Open Anyway"
 
-### Windows
+#### Windows
 1. Download the `.exe` installer
 2. Run the installer
 3. Follow the installation wizard
 
-### Linux
+#### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.14.0_amd64.deb
+sudo dpkg -i OhMyShot_1.17.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.14.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.17.0-1.x86_64.rpm
+
 ```
 
 ## Privacy

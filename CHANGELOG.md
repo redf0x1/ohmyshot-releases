@@ -2,6 +2,79 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.17.0] - 2026-02-27 (Combined Release: v1.15.0 → v1.17.0)
+
+> This release combines all features and fixes developed since v1.14.0.
+
+### ✨ New Features
+
+#### GIF Screen Recording
+- Record any area of your screen as an animated GIF
+- Select a region, press Record, and save as GIF when done
+- Floating toolbar shows elapsed time with Stop and Cancel buttons
+- Available from tray menu, keyboard shortcut (Shift+G), or main screen
+- Configurable frame rate and maximum duration in Settings
+- Shows encoding progress while the GIF is being created
+- GIF Preview with Save, Save As, Edit First Frame, Re-record, and Discard actions
+- File size and dimensions shown in the preview
+- Smart fallback: GIF with annotations automatically saves as static image to preserve quality
+
+#### Pin Screenshot
+- Keep any screenshot floating on top of other windows
+- Press P or use the toolbar to pin the current image
+- Stays visible while you work in other apps — perfect for reference images
+
+#### Template Library
+- Save your current beautifier settings as a reusable template
+- Apply any saved template with one click
+- Includes built-in presets to get started
+
+#### Annotation Layers Panel
+- View all your annotations in a layer panel
+- Toggle visibility of individual annotations
+- Drag to reorder which annotations appear in front
+
+#### Callout Annotation Tool
+- Add speech-bubble callouts with a leader line pointing to any part of your screenshot
+- Real-time leader line preview while positioning
+
+#### Watermark Image/Logo Support
+- Use your own logo or image as a watermark
+- Support for tiling to cover the entire image
+- Adjustable rotation and opacity
+
+#### Export Enhancements
+- **WebP export format** — save screenshots in WebP for smaller file sizes
+- **Custom filename templates** — set your own filename pattern with date, time, and counter variables
+
+#### Annotation Copy & Paste
+- Duplicate any annotation — select it, copy, and paste a new copy
+
+#### 17 New Languages (19 Total)
+- Added: Chinese, Japanese, Korean, Spanish, French, German, Portuguese, Russian, Turkish, Arabic, Italian, Thai, Hindi, Indonesian, Dutch, Polish, Ukrainian
+- System tray menu fully localized
+- Automatic language detection based on system settings
+
+### 🔧 Improvements
+- Recording toolbar supports all 19 languages
+- Drag-to-reposition the recording toolbar during recording
+- Memory usage estimate in GIF settings panel
+- Improved undo/redo reliability and performance
+- Enter key now correctly creates a new line in text annotations (instead of finishing editing)
+
+### 🐛 Bug Fixes
+- Fixed floating toolbar and overlays not responding to first click on macOS
+- Fixed export format getting stuck after GIF operations
+- Fixed toolbar Stop button requiring double-click on macOS
+- Fixed GIF preview button text wrapping on smaller screens
+- Fixed annotation tool preferences not persisting between sessions
+- Fixed missing Highlighter translations
+- Fixed callout tool positioning and anchor scaling
+- Fixed panel position not clamping to viewport edges
+- Fixed recording region coordinate handling across monitors
+- Fixed GIF encoding crash with certain color palettes
+- Improved Linux Wayland compatibility
+
 ## [1.14.0] - 2026-02-25
 
 ### Added
@@ -20,7 +93,7 @@ All notable changes to OhMyShot will be documented in this file.
 ### Changed
 - All dropdowns in Settings (Language, PrintScreen Action, Capture Delay) have improved layering behavior
 
-## [1.13.0] - 2026-02-25
+## [1.13.0] - 2025-02-25
 
 ### Fixed
 - **Vietnamese Input**: Resolved keyboard conflict with Vietnamese input methods (EVKey, UniKey) that caused typing issues
