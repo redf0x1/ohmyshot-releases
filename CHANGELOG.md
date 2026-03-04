@@ -2,6 +2,35 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.18.0] - 2026-03-03
+
+### ✨ New Features
+- **Translation** — Capture and translate text from any screen with a single hotkey
+- **Translation Provider Settings** — Choose your preferred translation engine in Settings
+- **Translation UI** — Beautiful translation modal with skeleton loading, inline error handling, and one-click language switching
+- **Recording Indicator** — Red border around recording region during GIF capture
+
+### 🔧 Improvements
+- **Pin Window** — Pin screenshots now perfectly match your beautified image with no extra space. Modern floating controls appear on hover
+- **Translation Hotkey** — Translates in the background without interrupting your workflow (no app window popup)
+- **Language Detection** — Translation target language automatically matches your system language
+- **GIF Recording Toolbar** — Refined floating toolbar with consistent rounded design
+- **Background Toggle** — "No Background" now removes all padding, rounded corners, and shadows for a clean transparent output
+- Improved consistency across all image rendering paths
+- **Translation Languages** — Full list of supported languages with native names (日本語, 한국어, Tiếng Việt, etc.)
+- **Localization** — Expanded translations across 18 languages
+
+### 🐛 Bug Fixes
+- Fixed pin window showing extra whitespace around images
+- Fixed recording toolbar appearing with white background
+- Fixed translation target language not following system language
+- Fixed transparent exports showing checkered pattern
+- Fixed Windows border artifact on borderless windows
+- Fixed capture toolbar being included in OS-level recordings
+- Fixed transparent background showing visible edge artifacts around the image
+- Fixed Windows installer failing when network restricts downloads
+- Fixed blank screen issue on some Linux configurations (Fedora 42)
+
 ## [1.17.0] - 2026-02-27 (Combined Release: v1.15.0 → v1.17.0)
 
 > This release combines all features and fixes developed since v1.14.0.
