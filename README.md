@@ -6,24 +6,20 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-## What's New in v1.17.0
+### 🆕 What's New in v1.18.0
 
-- 🎥 GIF Screen Recording — record any screen region as animated GIF
-- 📌 Pin Screenshot — always-on-top floating window
-- 📚 Template Library — save and apply beautifier templates
-- 🗂️ Annotation Layers Panel — visibility and reorder controls
-- 💬 Callout Annotation Tool — speech bubbles with leader lines
-- 🖼️ WebP Export Format
-- 📝 Custom Filename Templates
-- 📋 Annotation Copy & Paste
-- 🏷️ Watermark Image/Logo — tiling and rotation support
-- 🌍 17 new languages (19 total)
-- 🎬 GIF Preview Redesign — save, save as, edit first frame, re-record, discard
-- 🔧 Dozens of bug fixes and improvements
+- 🌐 **Screen Translation** — Capture text from any screen and translate to 20+ languages with a single hotkey
+- 🎨 **Translation UI** — Beautiful modal with loading animation, error handling, and one-click language switching
+- ⚙️ **Translation Settings** — Choose your preferred translation engine
+- 🔴 **Recording Indicator** — Red border around recording region during GIF capture
+- 📌 **Pin Window** — Improved pin screenshots perfectly match your beautified image
+- 🎯 **Background Toggle** — "No Background" gives you a clean transparent output
+- 🌍 **18 Languages** — Expanded translations across all supported languages
 
 ## Features
 
 - 📸 Screenshot capture (full screen, region, window)
+- 🌐 Screen translation
 - 🎥 GIF screen recording
 - 🎨 Beautiful backgrounds, gradients, borders, shadows
 - ✏️ 10+ annotation tools (arrow, text, rectangle, circle, line, freehand, blur, highlighter, numbering, callout)
@@ -66,17 +62,17 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release: v1.17.0
+### Latest Release: v1.18.0
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_aarch64.dmg) |
-| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64.dmg) |
-| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64-setup.exe) |
-| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_x64_en-US.msi) |
-| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_amd64.AppImage) |
-| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot_1.17.0_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot_1.17.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.17.0/OhMyShot-1.17.0-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.17.0/OhMyShot-1.17.0-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_aarch64.dmg) |
+| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_x64.dmg) |
+| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_x64-setup.exe) |
+| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_x64_en-US.msi) |
+| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_amd64.AppImage) |
+| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot_1.18.0_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot_1.18.0_amd64.deb) |
+| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.18.0/OhMyShot-1.18.0-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.18.0/OhMyShot-1.18.0-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -103,10 +99,11 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.17.0_amd64.deb
+sudo dpkg -i OhMyShot_1.18.0_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.17.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.18.0-1.x86_64.rpm
+
 
 ```
 
