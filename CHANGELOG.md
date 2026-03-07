@@ -2,6 +2,31 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.19.0] - 2026-03-06
+
+### ✨ Features
+- **Scrolling Screenshot Capture** — Automatically capture and stitch long pages, documents, and scrollable content into a single seamless image
+- **Floating Translation Popup** — Translation results now appear in a floating popup right at your selection, no need to switch windows
+- **Translation Language Selector** — Quick language picker with show-all toggle directly in the translation popup
+- **Complete Localization** — Full translation coverage for all 19 supported languages
+
+### 🎨 Improvements
+- Redesigned GIF recording toolbar with modern visual style
+- Improved fullscreen mode compatibility on macOS
+- Enhanced translation popup design with better readability and positioning
+- Optimized app logging for better performance in production
+
+### 🐛 Bug Fixes
+- Fixed app stability issues during scroll capture operations
+- Fixed fullscreen overlay and toolbar display on macOS
+- Fixed "Start minimized to tray" not working correctly
+- Fixed border artifacts in transparent background mode
+- Fixed translation popup not visible in fullscreen mode
+- Fixed display issues on Linux Wayland sessions
+- Fixed first-run setup reliability on Windows
+- Fixed checkerboard pattern overflow in transparent mode
+- Fixed translation popup closing unexpectedly
+
 ## [1.18.0] - 2026-03-03
 
 ### ✨ New Features
