@@ -2,6 +2,14 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.19.1] - 2026-03-07
+
+### 🐛 Bug Fixes
+- Fixed an issue where the app could freeze and become unresponsive on Windows when using Capture & Beautify or Scrolling Screenshot
+- Fixed notification preferences not being respected after turning off "Show notifications" in Preferences
+- Improved Scrolling Screenshot stability on macOS, including non-fullscreen windows
+- Fixed button spacing in toast notifications
+
 ## [1.19.0] - 2026-03-06
 
 ### ✨ Features
