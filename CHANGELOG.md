@@ -2,6 +2,36 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.20.0] - 2026-03-14
+
+### ✨ New Features
+- **Shift-constrain for drawing** — Hold Shift while drawing shapes or arrows to constrain proportions (perfect squares, circles, straight lines)
+- **Easier annotation selection** — Shapes, arrows, freehand, and highlighter annotations now have larger click targets, making them much easier to select
+- **Duplicate shortcut & selection feedback** — Duplicate annotations with a keyboard shortcut; selected annotations now show clear visual feedback
+
+### 🐛 Bug Fixes
+- Critical: Pin window stability — Fixed thread-safety issues with pin windows that could cause crashes or freezes
+- Translation popup language — Fixed popup always translating to English instead of the chosen target language
+- Translation stuck state on Windows — Prevented capture+translate from getting stuck mid-operation
+- Close-to-tray behavior — App now correctly respects the "close to tray" setting; macOS activation restored properly
+- Upload reliability — Added automatic retry logic and improved error messages for failed uploads
+- Memory leak fixed — Cleaned up event listeners that could accumulate over time
+- Clipboard retry on Linux — Clipboard copy now retries on failure; improved scroll-capture error messages
+- Editor padding consistency — Fixed a regression where background padding could render incorrectly
+- Ctrl+S / Cmd+S quick save — Fixed quick-save shortcut closing the editor unexpectedly
+- QR scanner reliability — Fixed QR code detection failing in certain environments
+- Export button type safety — Fixed a rare edge case where the Save button could misfire
+
+### 🔧 Improvements
+- Monitor picker localized — The multi-monitor selection dialog is now translated across all 19 supported languages
+- Pin window state management — Improved consistency when pinning, re-registering, and closing pinned screenshots
+- Capture flow robustness — Fixed race conditions during rapid pin/capture sequences; better window-restore behavior
+- "Close after copy" label — Updated setting label for clarity across all languages
+- Lifecycle robustness — Strengthened app startup, shutdown, and window-management reliability
+
+### 📝 Internal
+- Updated tests and development documentation
+
 ## [1.19.1] - 2026-03-07
 
 ### 🐛 Bug Fixes
