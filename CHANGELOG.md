@@ -2,35 +2,44 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
-## [1.20.0] - 2026-03-14
-
-### ✨ New Features
-- **Shift-constrain for drawing** — Hold Shift while drawing shapes or arrows to constrain proportions (perfect squares, circles, straight lines)
-- **Easier annotation selection** — Shapes, arrows, freehand, and highlighter annotations now have larger click targets, making them much easier to select
-- **Duplicate shortcut & selection feedback** — Duplicate annotations with a keyboard shortcut; selected annotations now show clear visual feedback
+## [1.21.0] - 2026-04-03
 
 ### 🐛 Bug Fixes
-- Critical: Pin window stability — Fixed thread-safety issues with pin windows that could cause crashes or freezes
-- Translation popup language — Fixed popup always translating to English instead of the chosen target language
-- Translation stuck state on Windows — Prevented capture+translate from getting stuck mid-operation
-- Close-to-tray behavior — App now correctly respects the "close to tray" setting; macOS activation restored properly
-- Upload reliability — Added automatic retry logic and improved error messages for failed uploads
-- Memory leak fixed — Cleaned up event listeners that could accumulate over time
-- Clipboard retry on Linux — Clipboard copy now retries on failure; improved scroll-capture error messages
-- Editor padding consistency — Fixed a regression where background padding could render incorrectly
-- Ctrl+S / Cmd+S quick save — Fixed quick-save shortcut closing the editor unexpectedly
-- QR scanner reliability — Fixed QR code detection failing in certain environments
-- Export button type safety — Fixed a rare edge case where the Save button could misfire
+- Fixed screenshot capture status message showing incorrectly on Linux
+- Fixed images appearing blank or black when saving or copying screenshots
+- Fixed image export reliability across all export paths
 
 ### 🔧 Improvements
-- Monitor picker localized — The multi-monitor selection dialog is now translated across all 19 supported languages
-- Pin window state management — Improved consistency when pinning, re-registering, and closing pinned screenshots
-- Capture flow robustness — Fixed race conditions during rapid pin/capture sequences; better window-restore behavior
-- "Close after copy" label — Updated setting label for clarity across all languages
-- Lifecycle robustness — Strengthened app startup, shutdown, and window-management reliability
+- Translation popup can now be resized for longer translations
+- Added resize handle for better discoverability
+- Improved translation popup scrolling for long text
 
-### 📝 Internal
-- Updated tests and development documentation
+## [1.20.0] - 2026-03-23
+
+### ✨ New Features
+- Shift-constrain for drawing: Hold Shift while drawing shapes or arrows to constrain proportions
+- Easier annotation selection: Shapes, arrows, freehand, and highlighter now have larger click targets
+- Duplicate shortcut & selection feedback: Duplicate annotations with a keyboard shortcut
+
+### 🐛 Bug Fixes
+- Fixed pin window stability issues that could cause crashes or freezes
+- Fixed translation popup language always defaulting to English
+- Fixed capture+translate getting stuck on Windows
+- Fixed close-to-tray behavior and macOS activation
+- Added upload retry logic and improved error messages
+- Fixed memory leak from accumulated event listeners
+- Fixed clipboard retry on Linux and scroll-capture error messages
+- Fixed background padding regression
+- Fixed Ctrl+S/Cmd+S quick save closing editor unexpectedly
+- Fixed QR code detection in certain environments
+- Fixed Save button edge case
+
+### 🔧 Improvements
+- Monitor picker dialog now translated across all 19 languages
+- Improved pin window state consistency
+- Improved capture flow robustness and window-restore behavior
+- Updated "Close after copy" label for clarity
+- Strengthened app startup, shutdown, and window-management reliability
 
 ## [1.19.1] - 2026-03-07
 
@@ -136,7 +145,7 @@ All notable changes to OhMyShot will be documented in this file.
 - Adjustable rotation and opacity
 
 #### Export Enhancements
-- **WebP export format** — save screenshots in WebP for smaller file sizes
+- **Modern compressed export format** — save screenshots in a smaller, web-optimized format
 - **Custom filename templates** — set your own filename pattern with date, time, and counter variables
 
 #### Annotation Copy & Paste
@@ -489,7 +498,7 @@ This release brings a completely reimagined editing experience. We've rebuilt th
 ## [1.2.0] - 2026-01-22
 
 ### Added
-- **OCR Text Extraction**: Extract text from screenshots using Tesseract.js (Live Text style)
+- **OCR Text Extraction**: Extract text from screenshots with fast on-device text recognition (Live Text style)
   - Press `Shift+T` to enter text selection mode
   - Word-level selection with blue highlight overlay
 - **QR Code Detection**: Scan and decode QR codes from screenshots automatically
