@@ -2,6 +2,17 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.22.0] - 2026-04-07
+
+### 🐛 Bug Fixes
+- Fixed images appearing blank on certain systems when saving or copying
+- Fixed screenshot capture failing on some Linux desktop environments
+- Fixed annotations not being drawable on top of existing ones
+- Fixed right-click context menu not working correctly in the editor
+
+### 🔧 Improvements
+- Translation popup now remembers its size between sessions
+
 ## [1.21.0] - 2026-04-03
 
 ### 🐛 Bug Fixes
@@ -244,13 +255,13 @@ All notable changes to OhMyShot will be documented in this file.
 ## [1.11.1] - 2026-02-20
 
 ### Fixed
-- Fixed region capture not showing screenshot on Windows (double data URL prefix in cropBase64Image) (#38)
+- Fixed region capture not showing screenshot on Windows (Fixed duplicate data encoding when processing images) (#38)
 - Fixed number input spinners showing ugly native browser controls
 - Fixed bottom bar content overflowing into "Select an annotation to edit" status text
 - Fixed floating edit/export panels overlapping bottom settings bar
 
 ### Improved
-- Added compact mode for SliderInput in bottom toolbar (horizontal single-row layout)
+- Added Compact mode for slider controls in bottom toolbar (horizontal single-row layout)
 - Added CSS overflow protections across toolbar components
 
 ## [1.11.0] - 2026-02-17
@@ -267,7 +278,7 @@ All notable changes to OhMyShot will be documented in this file.
 ### ✨ UX Improvements
 - Floating panel position clamping — panels stay within viewport
 - Upload history sidebar panel with search and auto-cleanup
-- SliderInput component with direct numeric input
+- Slider control with direct numeric input
 - Watermark auto-size toggle for dynamic font sizing
 - Fixed social media preset dimensions incorrect
 
