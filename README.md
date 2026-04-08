@@ -1,4 +1,9 @@
-# OhMyShot
+# OhMyShot — Screenshot Beautifier for Windows, macOS & Linux
+
+[![Latest Release](https://img.shields.io/github/v/release/redf0x1/ohmyshot-releases?label=Latest%20Release)](https://github.com/redf0x1/ohmyshot-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/redf0x1/ohmyshot-releases/total?label=Downloads)](https://github.com/redf0x1/ohmyshot-releases/releases)
+[![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://ohmyshot.app)
+[![Languages](https://img.shields.io/badge/languages-19-green)](https://ohmyshot.app)
 
 Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
