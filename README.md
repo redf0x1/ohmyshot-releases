@@ -6,13 +6,14 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-### 🆕 What's New in v1.20.0
+### 🆕 What's New in v1.23.0
 
-- ✏️ **Shift-constrain for drawing** — Hold Shift to draw perfect squares, circles, and straight lines
-- 🎯 **Easier annotation selection** — Larger click targets for shapes, arrows, freehand, and highlighter
-- 📋 **Duplicate shortcut** — Quickly duplicate annotations with a keyboard shortcut
-- 🐛 **Pin window stability** — Fixed crashes and freezes with pinned screenshots
-- 🌍 **Monitor picker localized** — Multi-monitor dialog now translated across all 19 languages
+- ✨ **Adjustable Notification Duration** — Control how long save/copy notifications stay on screen
+- 🎨 **8 New Background Presets** — Forest Breeze, Deep Space, Golden Hour, Chrome, Electric, Warm Stone, Rose Velvet, Slate
+- ⚖️ **Auto-Balance Padding** — Smart content-aware padding that adjusts based on your content
+- 🔍 **Hover-to-Enlarge Thumbnail** — Floating thumbnail zooms in when you hover over it
+- 📐 **Region Resize & Reposition** — Drag to move, use handles to resize, Enter to confirm
+- 🐧 **Linux X Button Fix** — Close button now works correctly on all Linux environments
 
 ### 📸 v1.19.0 Highlights
 
@@ -32,7 +33,7 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 🗂️ Annotation layers panel
 - 📌 Pin screenshots (always-on-top)
 - 📚 Template library
-- 🖼️ Export to PNG, JPEG, WebP, GIF
+- 🖼️ Export to PNG, JPEG, modern compressed image format, GIF
 - 📝 Custom filename templates
 - 💧 Watermark (text + image/logo)
 - 📋 Annotation copy/paste
@@ -42,13 +43,13 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 ## Feature Showcase
 
 <p align="center">
-  <img src="https://ohmyshot.app/assets/images/showcase/gallery-01-gradients-full.webp" alt="Gradient Backgrounds" width="600">
+  <img src="https://ohmyshot.app/assets/images/showcase/gallery-01-gradients-full.%77ebp" alt="Gradient Backgrounds" width="600">
   <br>
   <em>Professional gradient backgrounds</em>
 </p>
 
 <p align="center">
-  <img src="https://ohmyshot.app/assets/images/showcase/gallery-02-wallpapers-full.webp" alt="Wallpaper Backgrounds" width="600">
+  <img src="https://ohmyshot.app/assets/images/showcase/gallery-02-wallpapers-full.%77ebp" alt="Wallpaper Backgrounds" width="600">
   <br>
   <em>Custom wallpaper backgrounds</em>
 </p>

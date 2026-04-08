@@ -2,6 +2,21 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.23.0] - 2026-04-08
+
+### ✨ New Features
+- Adjustable notification duration: Control how long save/copy notifications stay on screen
+- 8 new background presets: Forest Breeze, Deep Space, Golden Hour, Chrome, Electric, Warm Stone, Rose Velvet, and Slate
+- Auto-Balance Padding: Smart content-aware padding that adjusts based on your screenshot content
+- Hover-to-enlarge thumbnail: Floating screenshot thumbnail now zooms in when you hover over it
+- Region capture resize & reposition: After drawing a capture region, drag to move or use handles to resize before confirming (#77)
+
+### 🐛 Bug Fixes
+- Fixed close (X) button not working on certain Linux desktop environments like KDE Wayland (#76)
+
+### 🌐 Translations
+- All new features fully translated across all 19 supported languages
+
 ## [1.22.0] - 2026-04-07
 
 ### 🐛 Bug Fixes
