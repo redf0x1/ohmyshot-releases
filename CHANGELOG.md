@@ -5,11 +5,11 @@ All notable changes to OhMyShot will be documented in this file.
 ## [1.24.0] - 2026-05-07
 
 ### ✨ Improvements
-- Added a subtle product credit line in the app
-- Improved screenshot capture reliability on more Linux desktops
+- New capture options: choose how full-screen capture behaves and whether region capture happens instantly or lets you adjust first
+- Added a subtle auto-bot.io credit line in the app
 
 ### 🐛 Fixes
-- Improved app recovery after capture actions so the editor returns more reliably
+- Improved Linux window capture so picking a window and returning to the app works more reliably
 
 ## [1.23.0] - 2026-04-08
 

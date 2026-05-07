@@ -13,9 +13,9 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ### 🆕 What's New in v1.24.0
 
+- 🎯 **More Flexible Capture** — Choose how full-screen capture behaves and whether region capture happens instantly or lets you adjust first
+- 🐧 **Better Linux Window Capture** — Picking a window and returning to the app now works more reliably on Linux desktops
 - ✨ **Subtle Product Credit** — A small auto-bot.io credit now appears in the app
-- 🐧 **Better Linux Capture Reliability** — Screenshot capture now works more smoothly across more Linux desktop setups
-- 🔁 **Smoother Return After Capture** — The app now comes back more reliably after capture actions
 
 ### 📸 v1.19.0 Highlights
 
