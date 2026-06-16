@@ -11,18 +11,19 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-### 🆕 What's New in v1.24.0
+### What's New in v1.25.1
 
-- 🎯 **More Flexible Capture** — Choose how full-screen capture behaves and whether region capture happens instantly or lets you adjust first
-- 🐧 **Better Linux Window Capture** — Picking a window and returning to the app now works more reliably on Linux desktops
-- ✨ **Subtle Product Credit** — A small auto-bot.io credit now appears in the app
+- **Combine screenshots** — Add multiple screenshots and make one combined image inside OhMyShot.
+- **No more Paint workaround** — Arrange screenshots as Auto, Row, or Column directly from the Export panel.
+- **Copy fix** — Copying a beautified screenshot with a background no longer stays loading forever.
+- **Better reliability** — Combined images work more reliably with screenshots pasted from different apps.
 
-### 📸 v1.19.0 Highlights
+### v1.25.0 Highlights
 
-- 📜 **Scrolling Screenshot** — Capture entire scrollable pages with automatic stitching
-- 🌍 **Floating Translation** — Translated text appears in a convenient floating popup
-- 🗣️ **Language Selector** — Choose your preferred UI language from 19 options
-- 🌐 **Complete Localization** — All UI elements fully translated across supported languages
+- **Annotation defaults** — Save your preferred text, shape, and arrow styles for the next annotation.
+- **Line styles** — Use solid, dashed, and dotted lines for arrows, lines, rectangles, and ellipses.
+- **Curved arrows** — Add adjustable curved arrows for clearer callouts.
+- **Watermarks** — Add resizable text or image watermarks to screenshots.
 
 ## Features
 
@@ -35,6 +36,7 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 - 🗂️ Annotation layers panel
 - 📌 Pin screenshots (always-on-top)
 - 📚 Template library
+- 🧩 Combine multiple screenshots into one image
 - 🖼️ Export to PNG, JPEG, modern compressed image format, GIF
 - 📝 Custom filename templates
 - 💧 Watermark (text + image/logo)
@@ -71,17 +73,17 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release: v1.24.0
+### Latest Release: v1.25.1
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_aarch64.dmg) |
-| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_x64.dmg) |
-| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_x64-setup.exe) |
-| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_x64_en-US.msi) |
-| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_amd64.AppImage) |
-| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot_1.24.0_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot_1.24.0_amd64.deb) |
-| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.24.0/OhMyShot-1.24.0-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.24.0/OhMyShot-1.24.0-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_aarch64.dmg) |
+| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_x64.dmg) |
+| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_x64-setup.exe) |
+| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_x64_en-US.msi) |
+| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_amd64.AppImage) |
+| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot_1.25.1_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot_1.25.1_amd64.deb) |
+| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.25.1/OhMyShot-1.25.1-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.25.1/OhMyShot-1.25.1-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -108,10 +110,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.24.0_amd64.deb
+sudo dpkg -i OhMyShot_1.25.1_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.24.0-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.25.1-1.x86_64.rpm
 
 
 ```

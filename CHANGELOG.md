@@ -2,14 +2,39 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.1] - 2026-06-16
+
+### New Features
+- Added a native screenshot combiner in Export so users can add multiple screenshots and make one combined image without switching to Paint or another editor.
+
+### Fixes
+- Fixed a copy/export issue where copying a beautified screenshot with a background could stay stuck in a loading state.
+- Improved screenshot combining reliability for pasted screenshots from different apps.
+
+## [1.25.0] - 2026-06-16
+
+### New Features
+- Added annotation style defaults so users can save current text, shape, and arrow styling for the next annotation.
+- Added solid, dashed, and dotted line styles for arrows, lines, rectangles, and ellipses.
+- Added curved arrows with an adjustable control point.
+- Added a canvas watermark tool for text and image watermarks with resize, rotation, opacity, and reposition controls.
+
+### Improvements
+- Watermark position now carries through templates, batch export, and regular export.
+- Copy buttons now make it clear when the window will close after copying.
+- Added Vietnamese copy for the new annotation, line style, and watermark controls.
+
+### Fixes
+- Export now hides editor-only handles and transformers so watermark and curved-arrow controls do not appear in saved images.
+
 ## [1.24.0] - 2026-05-07
 
-### ✨ Improvements
-- New capture options: choose how full-screen capture behaves and whether region capture happens instantly or lets you adjust first
-- Added a subtle auto-bot.io credit line in the app
+### Improvements
+- New capture options: choose how full-screen capture behaves and whether region capture happens instantly or lets you adjust first.
+- Added a subtle, localized auto-bot.io credit line in the app.
 
-### 🐛 Fixes
-- Improved Linux window capture so picking a window and returning to the app works more reliably
+### Fixes
+- Improved Linux/Wayland window capture so picking and returning to the app works more reliably.
 
 ## [1.23.0] - 2026-04-08
 
