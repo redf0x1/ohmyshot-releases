@@ -2,6 +2,13 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.2] - 2026-06-16
+
+### Fixes
+- Fixed a Windows issue where Window Capture could stay stuck on "Loading windows..." and force users to end the app from Task Manager.
+- Window Capture now times out cleanly if Windows does not return the open-window list, so Cancel, Escape, and Close keep working.
+- Fixed a Windows issue where screenshot hotkeys could stop working after updating to v1.25.0 or v1.25.1.
+
 ## [1.25.1] - 2026-06-16
 
 ### New Features
