@@ -2,6 +2,12 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.4] - 2026-06-18
+
+### Fixes
+- Preserved text box width when editing existing text annotations so long sentences and manual line breaks no longer wrap unexpectedly.
+- Includes the Windows capture recovery from the 1.25.3 test build that was confirmed by a Windows 11 user.
+
 ## [1.25.2] - 2026-06-16
 
 ### Fixes
