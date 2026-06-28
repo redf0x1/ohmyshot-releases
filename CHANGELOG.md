@@ -2,11 +2,29 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.5] - 2026-06-28
+
+### Improvements
+- Added left, center, and right alignment controls for text annotations.
+- Improved text background styling so highlighted text has clearer padding and stays readable.
+- Added translucent fill control for rectangles and ellipses, making it easier to mark an area while keeping the content underneath visible.
+
+### Fixes
+- Fixed editor copy so pasted screenshots include the annotations and markings users added before copying.
+- Fixed a Windows 11 issue where Select Monitor could stay stuck on "Loading..." when Windows had not returned screen capture access.
+- Monitor selection now times out with a clear retry path instead of leaving the app stuck.
+
 ## [1.25.4] - 2026-06-18
 
 ### Fixes
 - Preserved text box width when editing existing text annotations so long sentences and manual line breaks no longer wrap unexpectedly.
 - Includes the Windows capture recovery from the 1.25.3 test build that was confirmed by a Windows 11 user.
+
+## [1.25.3] - 2026-06-17
+
+### Fixes
+- Improved Windows capture recovery so the app comes back if the region-selection overlay fails to open.
+- Fixed a case where screenshot hotkeys could stop responding after one capture attempt on Windows.
 
 ## [1.25.2] - 2026-06-16
 
