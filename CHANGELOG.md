@@ -2,6 +2,12 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.6] - 2026-07-13
+
+### Fixes
+- Fixed GIF recording so the app stays responsive while the recording is being finished and prepared for copying or saving.
+- Canceling a GIF recording no longer makes the app appear frozen while captured frames are being released.
+
 ## [1.25.5] - 2026-06-28
 
 ### Improvements
