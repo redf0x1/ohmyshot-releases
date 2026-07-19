@@ -2,6 +2,17 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.7] - 2026-07-19
+
+### Fixes
+- Fixed a blank window that could appear when OhMyShot opened automatically after signing in, especially on macOS.
+- Fixed Windows capture being blocked by an incorrect permission check.
+- Prevented overlapping copy requests from leaving export stuck or unresponsive.
+- Kept screenshot, GIF, and clipboard work from blocking the app, with recovery when an operating-system operation takes too long.
+
+### Improvements
+- Added lightweight support diagnostics to help investigate rare capture or copy freezes without recording screenshot content.
+
 ## [1.25.6] - 2026-07-13
 
 ### Fixes
