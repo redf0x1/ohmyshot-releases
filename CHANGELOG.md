@@ -2,6 +2,11 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.8] - 2026-07-28
+
+### Fixes
+- Fixed macOS capture shortcuts sometimes requiring another press or starting before the app had fully hidden.
+
 ## [1.25.7] - 2026-07-19
 
 ### Fixes
