@@ -2,6 +2,16 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.25.9] - 2026-07-30
+
+### Fixes
+- Fixed macOS OCR and Quick Capture shortcuts so region selection starts only after the shortcut keys are released, including repeated captures.
+- Kept macOS OCR and Quick Capture results distinct: OCR copies extracted text, while Quick Capture copies the selected image.
+- Fixed Windows region capture losing its screenshot while the selection overlay closes, which could show “Screenshot data unavailable” on repeated captures.
+
+### Improvements
+- Made capture diagnostics safe for concurrent shortcut and capture events so support logs remain readable during repeated attempts.
+
 ## [1.25.8] - 2026-07-28
 
 ### Fixes
