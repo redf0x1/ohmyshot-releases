@@ -2,47 +2,40 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
-## [1.26.0] - 2026-08-12
-
-### New Features
-- Added Quick Markup from the global shortcut, tray, and capture toolbars. Select an area, annotate it, then copy or save it without opening the full editor.
-- Added Select, Arrow, Rectangle, Pen, Text, and Blur/Pixelate tools with contextual color and width controls.
-- Added Quick Markup Undo, Redo, Cancel, Save, and Copy & Close actions with keyboard shortcuts.
-- Added a macOS Quick Markup picker that captures the selected image without writing it to the clipboard first.
-- Added localized Quick Markup labels, messages, tooltips, and shortcut text across all supported languages.
+## [1.26.1] - 2026-08-29
 
 ### Improvements
-- Quick Markup now uses the same annotation and export behavior as the full editor, including source-relative crop, text, shapes, arrows, freehand marks, blur, and history.
-- Copy and Save flatten the current crop and annotations exactly once. Quick Save uses the same destination and filename settings as the main editor.
-- Improved compact toolbar placement, spacing, contrast, tooltip padding, and screen-edge behavior around small or constrained selections.
-- Coordinated capture admission across screen, region, window, OCR, Quick Capture, Translate, Beautify, GIF, Scroll, and Quick Markup so only the active workflow owns capture state.
-- Added supervised native capture and clipboard workers with exact operation ownership, bounded timeout handling, private temporary payloads, and idempotent cleanup.
-- Capture completion now restores the previous focus only after the exact terminal cleanup finishes.
-- Added privacy-safe support traces for picker, worker, clipboard, finalization, cleanup, retry, and reconciliation outcomes without recording screenshot content.
+- Callout annotations can now be placed by dragging from the pointer tip to the bubble, while a click keeps the familiar automatic placement.
+- Rectangle and ellipse tools now provide separate fill color and opacity controls.
 
 ### Fixes
-- Fixed repeated macOS OCR, Quick Capture, and Quick Markup shortcuts becoming unresponsive after cancellation or timeout.
-- Fixed Quick Markup Copy & Close leaving capture busy and blocking all later shortcuts until the app restarted.
-- Fixed a different capture shortcut being able to interrupt an active native picker.
-- Fixed late or duplicate native picker completion releasing the wrong or newer capture session.
-- Fixed completed clipboard delivery being reported as failed when helper cleanup finished late.
-- Fixed clipboard cleanup copying an image twice or touching an unrelated clipboard operation.
-- Fixed transient cleanup failures replaying an already-completed Copy or Save side effect.
-- Fixed exhausted Quick Markup cleanup retries permanently blocking future capture; the next capture resumes the exact retained cleanup before admission.
-- Fixed Quick Markup window-close and finalization races that could double-clean or strand a session.
-- Fixed annotation export readiness and fallback behavior so editor controls do not appear in copied or saved images.
-- Fixed Quick Markup text, selection, history, and cancelled-gesture edge cases.
-- Fixed Quick Markup toolbar overlap and cramped tooltip geometry near screen edges.
+- Fixed capture shortcuts sometimes needing an extra press or becoming unavailable after a picker, Quick Markup, or Copy & Close action.
+- Fixed long single-line text wrapping while typing and preserved edits, manual line breaks, and native input-method text when editing annotations.
+- Fixed horizontally resized text annotations snapping back instead of keeping their chosen width.
+- Fixed callouts becoming difficult to select or reposition after being released near a canvas edge.
+
+## [1.26.0] - 2026-08-11
+
+### New Features
+- Added Quick Markup so a selected area can be annotated, copied, or saved without opening the full editor.
+- Added Select, Arrow, Rectangle, Pen, Text, Blur/Pixelate, Crop, Undo, and Redo controls to Quick Markup.
+- Added a configurable Quick Markup shortcut and localized its labels across all supported languages.
+
+### Improvements
+- Quick Markup uses the same annotation behavior as the full editor for consistent output.
+- Quick Markup controls adapt around the selected image and stay readable near screen edges.
+
+### Fixes
+- Fixed repeated capture shortcuts becoming blocked after Quick Markup Copy, Save, Cancel, or window close.
+- Fixed Quick Markup toolbar overlap, action spacing, and tooltip placement in constrained layouts.
+- Fixed annotation export edge cases that could include editor-only controls in copied or saved images.
 
 ## [1.25.9] - 2026-07-30
 
 ### Fixes
-- Fixed macOS OCR and Quick Capture shortcuts starting before the shortcut keys were released.
-- Kept OCR and Quick Capture output behavior distinct: OCR copies extracted text, while Quick Capture copies the selected image.
-- Fixed repeated Windows region capture losing the selected screenshot while the selection window closed.
-
-### Improvements
-- Made capture diagnostics safe for concurrent shortcut and capture events so support logs remain readable during repeated attempts.
+- Fixed macOS OCR and Quick Capture shortcuts so selection starts after the shortcut keys are released, including repeated captures.
+- Kept OCR and Quick Capture results distinct: OCR copies text, while Quick Capture copies the selected image.
+- Fixed repeated Windows region captures sometimes losing the selected screenshot.
 
 ## [1.25.8] - 2026-07-28
 
