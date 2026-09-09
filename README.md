@@ -11,7 +11,11 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-### What's New in v1.26.1
+### What's New in v1.26.2
+
+- **Shape fill transparency now matches your selection** — Rectangle and ellipse fills support every opacity level, including fully transparent, while their outlines stay visible.
+
+### v1.26.1 Highlights
 
 - **Capture without interruptions** — Capture shortcuts remain ready after a picker, Quick Markup, or Copy & Close action, without an extra key press.
 - **Reliable text editing** — Long text, manual line breaks, native input methods, and resized text boxes keep the content and width you chose.
@@ -90,17 +94,17 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release: v1.26.1
+### Latest Release: v1.26.2
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_aarch64.dmg) |
-| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_x64.dmg) |
-| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_x64-setup.exe) |
-| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_x64_en-US.msi) |
-| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_amd64.AppImage) |
-| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot_1.26.1_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot_1.26.1_amd64.deb) |
-| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.1/OhMyShot-1.26.1-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.26.1/OhMyShot-1.26.1-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_aarch64.dmg) |
+| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64.dmg) |
+| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64-setup.exe) |
+| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64_en-US.msi) |
+| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_amd64.AppImage) |
+| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_amd64.deb) |
+| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot-1.26.2-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot-1.26.2-1.x86_64.rpm) |
 
 > ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
 
@@ -127,10 +131,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.26.1_amd64.deb
+sudo dpkg -i OhMyShot_1.26.2_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.26.1-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.26.2-1.x86_64.rpm
 
 
 ```

@@ -2,6 +2,11 @@
 
 All notable changes to OhMyShot will be documented in this file.
 
+## [1.26.2] - 2026-09-09
+
+### Fixes
+- Fixed rectangle and ellipse fill transparency so it matches the selected level, including fully transparent fills, while outlines remain visible.
+
 ## [1.26.1] - 2026-08-29
 
 ### Improvements
