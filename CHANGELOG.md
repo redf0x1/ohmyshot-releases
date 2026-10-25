@@ -8,8 +8,8 @@ All notable changes to OhMyShot will be documented in this file.
 - Improved the window-hiding step after copying, without reporting a successful copy as failed if hiding the editor fails.
 - macOS text recognition can recover when the system recognition service fails. The offline backup currently recognizes English; normal system recognition retains its existing language support.
 
-### Known limitations
-- The intermittent Windows report where the copy button remains disabled after copying is still under investigation; this release does not claim to resolve every occurrence.
+### Follow-up verification
+- Installed Windows checks passed repeated copy, hide, reopen and copy-again actions, including after the same session had been running for more than 3.5 hours. The intermittent lockup did not reproduce in this environment; a recurrence can still be reported with a fresh support trace.
 - Follow-up verification no longer reproduces the earlier Windows Security alert when retesting official builds with updated Defender. Keep antivirus protection enabled and report any new threat alert rather than bypassing it.
 
 ## [1.26.2] - 2026-09-09
