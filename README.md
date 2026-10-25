@@ -11,7 +11,13 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
   <img src="https://ohmyshot.app/assets/images/screenshots/optimized/ohmyshot-banner.png" alt="OhMyShot - Screenshot Beautifier" width="100%">
 </p>
 
-### What's New in v1.26.2
+### What's New in v1.26.3
+
+- **More reliable post-copy handling** — Improved the step that hides the editor after copying, with better diagnostics if it fails.
+- **macOS text recognition recovery** — When system recognition fails, an offline English backup is available. Normal system recognition keeps its existing language support.
+- The intermittent Windows copy-button issue and the Windows Security report remain open; see the [release notes](https://github.com/redf0x1/ohmyshot-releases/releases/tag/v1.26.3) for limits and safety guidance.
+
+### v1.26.2 Highlights
 
 - **Shape fill transparency now matches your selection** — Rectangle and ellipse fills support every opacity level, including fully transparent, while their outlines stay visible.
 
@@ -94,19 +100,19 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 ## Download
 
-### Latest Release: v1.26.2
+### Latest Release: v1.26.3
 
 | Platform | Download |
 |----------|----------|
-| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_aarch64.dmg) |
-| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64.dmg) |
-| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64-setup.exe) |
-| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_x64_en-US.msi) |
-| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_amd64.AppImage) |
-| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot_1.26.2_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot_1.26.2_amd64.deb) |
-| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.2/OhMyShot-1.26.2-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.26.2/OhMyShot-1.26.2-1.x86_64.rpm) |
+| macOS (Apple Silicon) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_aarch64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_aarch64.dmg) |
+| macOS (Intel) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_x64.dmg) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_x64.dmg) |
+| Windows (Installer) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_x64-setup.exe) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_x64-setup.exe) |
+| Windows (MSI) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_x64_en-US.msi) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_x64_en-US.msi) |
+| Linux (AppImage) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_amd64.AppImage) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_amd64.AppImage) |
+| Linux (Debian/Ubuntu) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot_1.26.3_amd64.deb) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot_1.26.3_amd64.deb) |
+| Linux (Fedora/RHEL) | [GitHub](https://github.com/redf0x1/ohmyshot-releases/releases/download/v1.26.3/OhMyShot-1.26.3-1.x86_64.rpm) · [CDN](https://dl.ohmyshot.app/v1.26.3/OhMyShot-1.26.3-1.x86_64.rpm) |
 
-> ⚠️ **Windows Note**: You may see a SmartScreen warning. Click "More info" → "Run anyway" to proceed.
+> ⚠️ **Windows safety**: A SmartScreen reputation warning is different from an antivirus threat alert. If Windows Security reports a threat, do not bypass it or add an exclusion; see [issue #97](https://github.com/redf0x1/ohmyshot-releases/issues/97).
 
 [View all releases →](https://github.com/redf0x1/ohmyshot-releases/releases)
 
@@ -131,10 +137,10 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 #### Linux
 ```bash
 # Debian/Ubuntu
-sudo dpkg -i OhMyShot_1.26.2_amd64.deb
+sudo dpkg -i OhMyShot_1.26.3_amd64.deb
 
 # Fedora/RHEL
-sudo rpm -i OhMyShot-1.26.2-1.x86_64.rpm
+sudo rpm -i OhMyShot-1.26.3-1.x86_64.rpm
 
 
 ```
