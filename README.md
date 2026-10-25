@@ -15,7 +15,7 @@ Beautiful screenshot beautifier for macOS, Windows, and Linux.
 
 - **More reliable post-copy handling** — Improved the step that hides the editor after copying, with better diagnostics if it fails.
 - **macOS text recognition recovery** — When system recognition fails, an offline English backup is available. Normal system recognition keeps its existing language support.
-- The intermittent Windows copy-button issue and the Windows Security report remain open; see the [release notes](https://github.com/redf0x1/ohmyshot-releases/releases/tag/v1.26.3) for limits and safety guidance.
+- The intermittent Windows copy-button report is still under investigation. Follow-up Defender checks no longer reproduce the earlier security alert; see the [release notes](https://github.com/redf0x1/ohmyshot-releases/releases/tag/v1.26.3) for details and safety guidance.
 
 ### v1.26.2 Highlights
 

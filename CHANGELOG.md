@@ -10,7 +10,7 @@ All notable changes to OhMyShot will be documented in this file.
 
 ### Known limitations
 - The intermittent Windows report where the copy button remains disabled after copying is still under investigation; this release does not claim to resolve every occurrence.
-- The Windows Security report for v1.26.0 remains open. Do not disable antivirus protection or add an exclusion if a threat is reported.
+- Follow-up verification no longer reproduces the earlier Windows Security alert when retesting official builds with updated Defender. Keep antivirus protection enabled and report any new threat alert rather than bypassing it.
 
 ## [1.26.2] - 2026-09-09
 
